@@ -13,6 +13,20 @@ data:extend(
     width = 16,
     height = 16,
     equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "famine-armor-equipment-grid",
+    width = 16,
+    height = 16,
+    equipment_categories = {"armor"}
+  },
+  {
+    type = "equipment-grid",
+    name = "death-armor-equipment-grid",
+    width = 32,
+    height = 32,
+    equipment_categories = {"armor"}
   }
 }
 )
