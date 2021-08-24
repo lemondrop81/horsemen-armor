@@ -35,12 +35,12 @@ data:extend({
          enabled = false,
          energy_required = 25,
          ingredients = {
-            { "effectivity-module-3", 25}, 
-            {"speed-module-3", 25}, 
-            {"processing-unit", 80}, 
-            {"electric-engine-unit", 60}, 
-            {"low-density-structure", 50}
-         },
+               { "effectivity-module-3", 25}, 
+               {"speed-module-3", 25}, 
+               {"processing-unit", 80}, 
+               {"electric-engine-unit", 60}, 
+               {"low-density-structure", 50}
+            },
          result = "famine-armor",
          requester_paste_multiplier = 1
          },
@@ -55,6 +55,54 @@ data:extend({
                { "pestilence-armor", 5},
             },
             result = "death-armor",
+            requester_paste_multiplier = 15
+         },
+         {
+            type = "recipe",
+            name = "hell-fuel-craft",
+            enabled = false,
+            energy_required = 25,
+            ingredients = {
+               { "copper-plate", 200}, 
+               { "steel-plate", 50},
+            },
+            result = "hell-fuel",
+            requester_paste_multiplier = 15
+         },
+         {
+            type = "recipe",
+            name = "death-juice-craft",
+            enabled = false,
+            energy_required = 25,
+            ingredients = {
+               { "copper-plate", 200}, 
+               { "steel-plate", 50},
+            },
+            result = "death-juice",
+            requester_paste_multiplier = 15
+         },
+         {
+            type = "recipe",
+            name = "famine-fanta-craft",
+            enabled = false,
+            energy_required = 25,
+            ingredients = {
+               { "copper-plate", 200}, 
+               { "steel-plate", 50},
+            },
+            result = "famine-fanta",
+            requester_paste_multiplier = 15
+         },
+         {
+            type = "recipe",
+            name = "pestilence-punch-craft",
+            enabled = false,
+            energy_required = 25,
+            ingredients = {
+               { "copper-plate", 200}, 
+               { "steel-plate", 50},
+            },
+            result = "pestilence-punch",
             requester_paste_multiplier = 15
             },
   })
