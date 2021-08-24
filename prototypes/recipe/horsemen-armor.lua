@@ -48,11 +48,13 @@ data:extend({
             type = "recipe",
             name = "death-armor-craft",
             enabled = false,
-            energy_required = 1,
+            energy_required = 25,
             ingredients = {
-               { "iron-plate", 25}, 
+               { "war-armor", 5}, 
+               { "famine-armor", 5},
+               { "pestilence-armor", 5},
             },
             result = "death-armor",
-            requester_paste_multiplier = 1
+            requester_paste_multiplier = 15
             },
   })
