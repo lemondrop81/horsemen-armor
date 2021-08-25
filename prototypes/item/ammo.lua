@@ -1,0 +1,183 @@
+--To create the ammo for Death
+local blackDeath = table.deepcopy(data.raw["ammo"]["rocket"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+
+blackDeath.name = "black-death"
+blackDeath.icons = {
+  {
+    icon = blackDeath.icon,
+    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
+  },
+}
+blackDeath.magazine_size = 666.0
+blackDeath.ammo_type =
+    {
+      range_modifier = 4,
+      cooldown_modifier = 1,
+      target_type = "position",
+      category = "rocket",
+      action =
+      {
+        type = "direct",
+        action_delivery =
+        {
+          type = "projectile",
+          projectile = "atomic-rocket",
+          starting_speed = 5,
+          source_effects =
+          {
+            type = "create-entity",
+            entity_name = "nuke-explosion"
+          }
+        }
+      }
+    },
+
+data:extend{blackDeath}
+
+
+-- To create the ammo for War
+local hellFire = table.deepcopy(data.raw["ammo"]["flamethrower-ammo"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+
+hellFire.name = "hell-fire"
+hellFire.icons = {
+  {
+    icon = hellFire.icon,
+    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
+  },
+}
+hellFire.magazine_size = 1000000000000000000000000000000000000000000000000.0
+hellFire.ammo_type =
+    {
+      range_modifier = 4,
+      cooldown_modifier = 1,
+      target_type = "position",
+      category = "flamethrower",
+      action =
+      {
+        type = "direct",
+        action_delivery =
+        {
+          type = "stream",
+          stream = "tank-flamethrower-fire-stream",
+          starting_speed = 5,
+          source_effects =
+          {
+            type = "create-entity",
+            entity_name = "nuke-explosion"
+          }
+        }
+      }
+    },
+
+data:extend{hellFire}
+
+-- To create the ammo for Famine
+local acidSpray = table.deepcopy(data.raw["ammo"]["flamethrower-ammo"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+
+acidSpray.name = "acid-spray"
+acidSpray.icons = {
+  {
+    icon = acidSpray.icon,
+    tint = {r=1,g=0.5,b=0,a=0.3}
+  },
+}
+acidSpray.magazine_size = 1000000000000000000000000000000000000000000000000.0
+acidSpray.ammo_type =
+    {
+      range_modifier = 4,
+      cooldown_modifier = 1,
+      target_type = "position",
+      category = "flamethrower",
+      action =
+      {
+        type = "line",
+        range = 50,
+        width = 5,
+        range_effects =
+        {
+            type = "create-explosion",
+            entity_name = "laser-bubble"
+        },
+
+        action_delivery =
+        {
+          type = "instant",
+         
+          target_effects =
+            {
+               type = "damage",
+               damage = { amount = 500, type="acid"}
+            },
+
+          source_effects =
+          {
+            type = "create-entity",
+            entity_name = "water-splash"
+          }
+        }
+      }
+    },
+
+data:extend{acidSpray}
+
+-- To create the ammo for pestilence
+local poisonPowder = table.deepcopy(data.raw["ammo"]["firearm-magazine"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+
+poisonPowder.name = "poison-powder"
+poisonPowder.icons = {
+  {
+    icon = poisonPowder.icon,
+    tint = {r=0,g=255,b=255,a=.5}
+  },
+}
+poisonPowder.magazine_size = 1000000000000000000000000000000000000000000000000.0
+poisonPowder.ammo_type =
+    {
+      range_modifier = 50,
+      category = "bullet",
+      action =
+      {
+        type = "direct",
+        action_delivery =
+        {
+          type = "instant",
+          source_effects =
+          {
+            type = "create-entity",
+            entity_name = "explosion-gunshot"
+          },
+          target_effects =
+          {
+            {
+              type = "create-entity",
+              entity_name = "explosion-gunshot"
+            },
+            {
+              type = "damage",
+              damage = { amount = 55, type = "physical"}
+            },
+            {
+              type = "nested-result",
+              action =
+              {
+                type = "area",
+                radius = 50,
+                action_delivery =
+                {
+                  type = "instant",
+                  target_effects =
+                  {
+                    {
+                      type = "damage",
+                      damage = {amount = 500, type = "poison"}
+                    },
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+
+data:extend{poisonPowder}
