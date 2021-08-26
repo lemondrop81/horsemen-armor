@@ -1,9 +1,14 @@
 data:extend({
     {
+        --The recipe to craft the ammo for Death
         type = "recipe",
         name = "black-death",
         enabled = true,
+
+        -- The base time required
         energy_required = 30,
+
+        -- The ingredients list. 
         ingredients = {
             { "copper-plate", 200}, 
             { "steel-plate", 50},
@@ -12,10 +17,15 @@ data:extend({
         requester_paste_multiplier = 15
     },
     {
+        --The recipe to craft the ammo for War
         type = "recipe",
         name = "hell-fire",
         enabled = true,
+
+        -- The base time required
         energy_required = 30,
+
+        -- The ingredients list. 
         ingredients = {
             { "copper-plate", 200}, 
         },
@@ -23,10 +33,15 @@ data:extend({
         requester_paste_multiplier = 15
     },
     {
+        -- The recipe to craft the ammo for Famine
         type = "recipe",
         name = "acid-spray",
         enabled = true,
-        energy_required = 3,
+
+        -- The base time required
+        energy_required = 30,
+
+        -- The ingredients list. 
         ingredients = {
             { "copper-plate", 200}, 
         },
@@ -34,10 +49,15 @@ data:extend({
         requester_paste_multiplier = 15
     },
     {
+        --The recipe to craft the ammo for Pestilence
         type = "recipe",
         name = "poison-powser",
         enabled = true,
+
+        -- The base time required
         energy_required = 3,
+
+        -- The ingredients list 
         ingredients = {
             { "copper-plate", 200}, 
         },

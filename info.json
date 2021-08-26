@@ -1,9 +1,9 @@
 {
     "name": "horsemen-armor",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "title": "Horsemen Armor",
     "author": "lemondrop81",
     "factorio_version": "1.1",
     "dependencies": ["base >= 1.1"],
-    "description": "This mod adds the armor for the horsemen War and Pestilence"
+    "description": "This mod adds the armor for the horsemen of the apocalypse, along with signature ammo and fuel. "
   }

@@ -48,22 +48,48 @@ hellFire.icons = {
 hellFire.magazine_size = 1000000000000000000000000000000000000000000000000.0
 hellFire.ammo_type =
     {
-      range_modifier = 4,
-      cooldown_modifier = 1,
-      target_type = "position",
+      range_modifier = 50,
       category = "flamethrower",
       action =
       {
         type = "direct",
         action_delivery =
         {
-          type = "stream",
-          stream = "tank-flamethrower-fire-stream",
-          starting_speed = 5,
+          type = "instant",
           source_effects =
           {
             type = "create-entity",
-            entity_name = "nuke-explosion"
+            entity_name = "explosion-gunshot"
+          },
+          target_effects =
+          {
+            {
+              type = "create-entity",
+              entity_name = "spark-explosion-higher"
+            },
+            {
+              type = "damage",
+              damage = { amount = 55, type = "fire"}
+            },
+            {
+              type = "nested-result",
+              action =
+              {
+                type = "area",
+                radius = 55,
+                action_delivery =
+                {
+                  type = "instant",
+                  target_effects =
+                  {
+                    {
+                      type = "damage",
+                      damage = {amount = 50, type = "fire"}
+                    },
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -84,35 +110,48 @@ acidSpray.icons = {
 acidSpray.magazine_size = 1000000000000000000000000000000000000000000000000.0
 acidSpray.ammo_type =
     {
-      range_modifier = 4,
-      cooldown_modifier = 1,
-      target_type = "position",
+      range_modifier = 50,
       category = "flamethrower",
       action =
       {
-        type = "line",
-        range = 50,
-        width = 5,
-        range_effects =
-        {
-            type = "create-explosion",
-            entity_name = "laser-bubble"
-        },
-
+        type = "direct",
         action_delivery =
         {
           type = "instant",
-         
-          target_effects =
-            {
-               type = "damage",
-               damage = { amount = 500, type="acid"}
-            },
-
           source_effects =
           {
             type = "create-entity",
-            entity_name = "water-splash"
+            entity_name = "explosion-gunshot"
+          },
+          target_effects =
+          {
+            {
+              type = "create-entity",
+              entity_name = "explosion-gunshot"
+            },
+            {
+              type = "damage",
+              damage = { amount = 55, type = "acid"}
+            },
+            {
+              type = "nested-result",
+              action =
+              {
+                type = "area",
+                radius = 20,
+                action_delivery =
+                {
+                  type = "instant",
+                  target_effects =
+                  {
+                    {
+                      type = "damage",
+                      damage = {amount = 100, type = "acid"}
+                    },
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -133,7 +172,7 @@ poisonPowder.icons = {
 poisonPowder.magazine_size = 1000000000000000000000000000000000000000000000000.0
 poisonPowder.ammo_type =
     {
-      range_modifier = 50,
+      range_modifier = 2,
       category = "bullet",
       action =
       {
