@@ -12,5 +12,7 @@ require("prototypes.recipe.vehicle")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
+require("prototypes.technology.ammo")
+require("prototypes.technology.vehicle")
 
 require("prototypes.entity.vehicle")

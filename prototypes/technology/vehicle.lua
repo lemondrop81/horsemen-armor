@@ -1,8 +1,8 @@
-local hellFuel = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local warMachine = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
-hellFuel.icons = {
+warMachine.icons = {
   {
-    icon = hellFuel.icon,
+    icon = warMachine.icon,
     tint = {r=1,g=0,b=0,a=0.3}
   },
 }
@@ -10,16 +10,16 @@ hellFuel.icons = {
 data:extend({
 	{
 		type = "technology",
-		name = "hell-fuel",
+		name = "war-machine",
 		icon_size = 64,
-		icon = hellFuel.icon,
+		icon = warMachine.icon,
 		effects =  {
 			{
 				type = "unlock-recipe",
-				recipe = "hell-fuel-craft"
+				recipe = "war-machine-craft"
 			},
 		},
-		prerequisites = {"nuclear-power"},
+		prerequisites = {"hell-fire"},
 		unit = {
 			count = 100,
 			ingredients = {
@@ -37,11 +37,11 @@ data:extend({
 }
 )
 
-local deathJuice = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local deathParade = table.deepcopy(data.raw["spider-vehicle"]["spidertron") -- copy the table that defines the heavy armor item into the fireArmor variable
 
-deathJuice.icons = {
+deathParade.icons = {
   {
-    icon = deathJuice.icon,
+    icon = deathParade.icon,
     tint = {r=0,g=0,b=0,a=1}
   },
 }
@@ -49,16 +49,16 @@ deathJuice.icons = {
 data:extend({
 	{
 		type = "technology",
-		name = "death-juice",
+		name = "death-parade",
 		icon_size = 64,
-		icon = deathJuice.icon,
+		icon = deathParade.icon,
 		effects =  {
 			{
 				type = "unlock-recipe",
-				recipe = "death-juice-craft"
+				recipe = "death-parade-craft"
 			},
 		},
-		prerequisites = {"war-armor", "pestilence-armor", "famine-armor"},
+		prerequisites = {"black-death"},
 		unit = {
 			count = 100,
 			ingredients = {
@@ -76,11 +76,11 @@ data:extend({
 }
 )
 
-local famineFanta = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local earthScorcher = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
-famineFanta.icons = {
+earthScorcher.icons = {
   {
-    icon = famineFanta.icon,
+    icon = earthScorcher.icon,
     tint = {r=1,g=0.5,b=0,a=0.3}
   },
 }
@@ -88,16 +88,16 @@ famineFanta.icons = {
 data:extend({
 	{
 		type = "technology",
-		name = "famine-fanta",
+		name = "earth-scorcher",
 		icon_size = 64,
-		icon = famineFanta.icon,
+		icon = earthScorcher.icon,
 		effects =  {
 			{
 				type = "unlock-recipe",
-				recipe = "famine-fanta-craft"
+				recipe = "earth-scorcher-craft"
 			},
 		},
-		prerequisites = {"nuclear-power"},
+		prerequisites = {"acid-spray"},
 		unit = {
 			count = 100,
 			ingredients = {
@@ -115,11 +115,11 @@ data:extend({
 }
 )
 
-local pestilencePunch = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local bubonicPlague = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
-pestilencePunch.icons = {
+bubonicPlague.icons = {
   {
-    icon = pestilencePunch.icon,
+    icon = bubonicPlague.icon,
     tint = {r=1,g=0.5,b=0,a=0.3}
   },
 }
@@ -127,16 +127,16 @@ pestilencePunch.icons = {
 data:extend({
 	{
 		type = "technology",
-		name = "pestilence-punch",
+		name = "bubonic-plague",
 		icon_size = 64,
-		icon = pestilencePunch.icon,
+		icon = bubonicPlague.icon,
 		effects =  {
 			{
 				type = "unlock-recipe",
-				recipe = "pestilence-punch-craft"
+				recipe = "bubonic-plague-craft"
 			},
 		},
-		prerequisites = {"nuclear-power"},
+		prerequisites = {"poison-powder"},
 		unit = {
 			count = 100,
 			ingredients = {

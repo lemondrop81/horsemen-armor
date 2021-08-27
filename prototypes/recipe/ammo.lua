@@ -2,8 +2,8 @@ data:extend({
     {
         --The recipe to craft the ammo for Death
         type = "recipe",
-        name = "black-death",
-        enabled = true,
+        name = "black-death-craft",
+        enabled = false,
 
         -- The base time required
         energy_required = 30,
@@ -19,8 +19,8 @@ data:extend({
     {
         --The recipe to craft the ammo for War
         type = "recipe",
-        name = "hell-fire",
-        enabled = true,
+        name = "hell-fire-craft",
+        enabled = false,
 
         -- The base time required
         energy_required = 30,
@@ -35,8 +35,8 @@ data:extend({
     {
         -- The recipe to craft the ammo for Famine
         type = "recipe",
-        name = "acid-spray",
-        enabled = true,
+        name = "acid-spray-craft",
+        enabled = false,
 
         -- The base time required
         energy_required = 30,
@@ -51,8 +51,8 @@ data:extend({
     {
         --The recipe to craft the ammo for Pestilence
         type = "recipe",
-        name = "poison-powser",
-        enabled = true,
+        name = "poison-powder-craft",
+        enabled = false,
 
         -- The base time required
         energy_required = 3,

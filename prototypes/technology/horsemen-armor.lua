@@ -10,7 +10,7 @@ data:extend({
 				recipe = "pestilence-armor-craft"
 			},
 		},
-		prerequisites = {"power-armor-mk2", "speed-module-3", "effectivity-module-3"},
+		prerequisites = {"bubonic-plague"},
 		unit = {
 			count = 500,
 			ingredients = {
@@ -36,7 +36,7 @@ data:extend({
 				recipe = "war-armor-craft"
 			},
 		},
-		prerequisites = {"power-armor-mk2", "hell-fuel", "effectivity-module-3"},
+		prerequisites = {"war-machine"},
 		unit = {
 			count = 500,
 			ingredients = {
@@ -62,7 +62,7 @@ data:extend({
 				recipe = "famine-armor-craft"
 			},
 		},
-		prerequisites = {"power-armor-mk2", "speed-module-3", "effectivity-module-3"},
+		prerequisites = {"earth-scorcher"},
 		unit = {
 			count = 500,
 			ingredients = {
@@ -88,7 +88,7 @@ data:extend({
 				recipe = "death-armor-craft"
 			},
 		},
-		prerequisites = {"war-armor", "pestilence-armor", "famine-armor"},
+		prerequisites = {"death-parade"},
 		unit = {
 			count = 500,
 			ingredients = {

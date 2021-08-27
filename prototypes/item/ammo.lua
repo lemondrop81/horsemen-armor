@@ -48,7 +48,7 @@ hellFire.icons = {
 hellFire.magazine_size = 1000000000000000000000000000000000000000000000000.0
 hellFire.ammo_type =
     {
-      range_modifier = 50,
+      range_modifier = 2,
       category = "flamethrower",
       action =
       {
@@ -110,7 +110,7 @@ acidSpray.icons = {
 acidSpray.magazine_size = 1000000000000000000000000000000000000000000000000.0
 acidSpray.ammo_type =
     {
-      range_modifier = 50,
+      range_modifier = 2,
       category = "flamethrower",
       action =
       {
