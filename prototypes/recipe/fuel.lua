@@ -6,8 +6,9 @@ data:extend({
         enabled = false,
         energy_required = 25,
         ingredients = {
-            { "copper-plate", 200}, 
-            { "steel-plate", 50},
+            { "explosives", 200}, 
+            { "rocket-fuel", 10},
+            { "crude-oil-barrel", 10},
         },
         result = "hell-fuel",
         requester_paste_multiplier = 15
@@ -20,8 +21,9 @@ data:extend({
         enabled = false,
         energy_required = 25,
         ingredients = {
-            { "copper-plate", 200}, 
-            { "steel-plate", 50},
+            { "famine-fanta", 20}, 
+            { "pestilence-punch", 20},
+            { "hell-fuel", 20}, 
         },
         result = "death-juice",
         requester_paste_multiplier = 15
@@ -34,8 +36,9 @@ data:extend({
         enabled = false,
         energy_required = 25,
         ingredients = {
-            { "copper-plate", 200}, 
-            { "steel-plate", 50},
+            { "sulfur", 50},
+            { "rocket-fuel", 10},
+            { "light-oil-barrel", 10},
         },
         result = "famine-fanta",
         requester_paste_multiplier = 15
@@ -48,8 +51,9 @@ data:extend({
         enabled = false,
         energy_required = 25,
         ingredients = {
-            { "copper-plate", 200}, 
-            { "steel-plate", 50},
+            { "rocket-fuel", 10},
+            { "heavy-oil-barrel", 10},
+            { "coal", 100},
         },
         result = "pestilence-punch",
         requester_paste_multiplier = 15

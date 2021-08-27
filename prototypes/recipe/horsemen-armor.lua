@@ -6,11 +6,8 @@ data:extend({
       enabled = false,
       energy_required = 25,
       ingredients = {
-         { "effectivity-module-3", 25}, 
-         {"speed-module-3", 25}, 
-         {"processing-unit", 80}, 
-         {"electric-engine-unit", 60}, 
-         {"low-density-structure", 50}
+         { "bubonic-plague", 1}, 
+         {"power-armor-mk2", 10}, 
       },
       result = "pestilence-armor",
       requester_paste_multiplier = 1
@@ -23,11 +20,8 @@ data:extend({
          enabled = false,
          energy_required = 25,
          ingredients = {
-            { "effectivity-module-3", 25}, 
-            {"speed-module-3", 25}, 
-            {"processing-unit", 80}, 
-            {"electric-engine-unit", 60}, 
-            {"low-density-structure", 50}
+            { "war-machine", 1}, 
+            { "power-armor-mk2", 10}, 
          },
          result = "war-armor",
          requester_paste_multiplier = 1
@@ -40,12 +34,9 @@ data:extend({
          enabled = false,
          energy_required = 25,
          ingredients = {
-               { "effectivity-module-3", 25}, 
-               {"speed-module-3", 25}, 
-               {"processing-unit", 80}, 
-               {"electric-engine-unit", 60}, 
-               {"low-density-structure", 50}
-            },
+            { "earth-scorcher", 1}, 
+            { "power-armor-mk2",10}, 
+         },
          result = "famine-armor",
          requester_paste_multiplier = 1
       },
@@ -57,9 +48,10 @@ data:extend({
          enabled = false,
          energy_required = 25,
          ingredients = {
-            { "war-armor", 5}, 
-            { "famine-armor", 5},
-            { "pestilence-armor", 5},
+            { "war-armor", 1}, 
+            { "famine-armor", 1},
+            { "pestilence-armor", 1},
+            { "death-parade", 1},
          },
          result = "death-armor",
          requester_paste_multiplier = 15

@@ -5,9 +5,10 @@ data:extend({
         name = "war-machine-craft",
         enabled = false,
 
-        energy_required = 1,
+        energy_required = 30,
         ingredients = {
-            { "copper-plate", 200}, 
+            { "hell-fire", 2}, 
+            { "spidertron", 2}, 
         },
         result = "war-machine",
     },
@@ -17,9 +18,12 @@ data:extend({
         name = "death-parade-craft",
         enabled = false,
 
-        energy_required = 1,
+        energy_required = 30,
         ingredients = {
-            { "copper-plate", 200}, 
+            { "bubonic-plague", 1}, 
+            { "earth-scorcher", 1}, 
+            { "war-machine", 1}, 
+            
         },
         result = "death-parade",
     },
@@ -29,9 +33,10 @@ data:extend({
         name = "earth-scorcher-craft",
         enabled = false,
 
-        energy_required = 1,
+        energy_required = 30,
         ingredients = {
-            { "copper-plate", 200}, 
+            { "acid-spray", 2}, 
+            { "spidertron", 2}, 
         },
         result = "earth-scorcher",
     },
@@ -41,9 +46,10 @@ data:extend({
         name = "bubonic-plague-craft",
         enabled = false,
 
-        energy_required = 1,
+        energy_required = 30,
         ingredients = {
-            { "copper-plate", 200}, 
+            { "poison-powder", 2}, 
+            { "spidertron", 2},  
         },
         result = "bubonic-plague",
     },

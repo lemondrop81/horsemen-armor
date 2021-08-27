@@ -1,5 +1,5 @@
 -- Research the ammo for War
-local hellFire = table.deepcopy(data.raw["item"]["land-mine"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local hellFire = table.deepcopy(data.raw["ammo"]["flamethrower-ammo"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 hellFire.icons = {
   {
@@ -79,7 +79,7 @@ data:extend({
 )
 
 -- Research the ammo for Famine
-local acidSpray = table.deepcopy(data.raw["item"]["land-mine"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local acidSpray = table.deepcopy(data.raw["ammo"]["flamethrower-ammo"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 acidSpray.icons = {
   {
@@ -119,7 +119,7 @@ data:extend({
 )
 
 -- Research the ammo for pestilence
-local poisonPowder = table.deepcopy(data.raw["item"]["land-mine"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local poisonPowder = table.deepcopy(data.raw["ammo"]["firearm-magazine"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 poisonPowder.icons = {
   {

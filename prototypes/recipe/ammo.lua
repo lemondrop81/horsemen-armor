@@ -10,8 +10,9 @@ data:extend({
 
         -- The ingredients list. 
         ingredients = {
-            { "copper-plate", 200}, 
-            { "steel-plate", 50},
+            { "hell-fire", 20}, 
+            { "acid-spray", 20},
+            { "poison-powder", 20},
         },
         result = "black-death",
         requester_paste_multiplier = 15
@@ -27,7 +28,8 @@ data:extend({
 
         -- The ingredients list. 
         ingredients = {
-            { "copper-plate", 200}, 
+            { "hell-fuel", 20}, 
+            { "flamethrower-ammo", 200}, 
         },
         result = "hell-fire",
         requester_paste_multiplier = 15
@@ -43,7 +45,8 @@ data:extend({
 
         -- The ingredients list. 
         ingredients = {
-            { "copper-plate", 200}, 
+            { "famine-fanta", 20},
+            { "flamethrower-ammo", 200}, 
         },
         result = "acid-spray",
         requester_paste_multiplier = 15
@@ -59,7 +62,8 @@ data:extend({
 
         -- The ingredients list 
         ingredients = {
-            { "copper-plate", 200}, 
+            { "pestilence-punch", 20}, 
+            { "piercing-rounds-magazine", 200}, 
         },
         result = "poison-powder",
         requester_paste_multiplier = 15

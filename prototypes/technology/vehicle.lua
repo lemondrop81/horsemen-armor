@@ -37,7 +37,7 @@ data:extend({
 }
 )
 
-local deathParade = table.deepcopy(data.raw["spider-vehicle"]["spidertron") -- copy the table that defines the heavy armor item into the fireArmor variable
+local deathParade = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 deathParade.icons = {
   {
