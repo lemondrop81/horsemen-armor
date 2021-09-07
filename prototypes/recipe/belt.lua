@@ -6,7 +6,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 2}, 
+            { "express-transport-belt", 30}, 
+            { "processing-unit", 5}, 
         },
         result = "2fast-2furious",
         requester_paste_multiplier = 15
@@ -18,7 +19,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 2}, 
+            { "2fast-2furious", 20}, 
+            { "express-underground-belt", 20}, 
         },
         result = "2fast-2furious-underground",
         requester_paste_multiplier = 15
