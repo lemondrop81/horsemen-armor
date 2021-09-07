@@ -2,13 +2,16 @@ data:extend({
     {
         --The recipe to craft the new furnace
         type = "recipe",
-        name = "Hephaestus forge",
-        enabled = true,
+        name = "hephaestus_forge-craft",
+        enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 2}, 
+            { "electric-furnace", 10}, 
+            {"processing-unit", 15},
+            {"assembling-machine-3", 5},
+            {"nuclear-reactor", 1},
         },
-        result = "Hephaestus forge",
+        result = "hephaestus_forge",
         requester_paste_multiplier = 15
     },
 }

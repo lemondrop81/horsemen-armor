@@ -1,8 +1,8 @@
 -- Create the entitee for the new drill
 local hephaestus_forge = util.table.deepcopy(data.raw["furnace"]["electric-furnace"])
-hephaestus_forge.name = "Hephaestus forge"
+hephaestus_forge.name = "hephaestus_forge"
 hephaestus_forge.crafting_speed = 50
-hephaestus_forge.place_result = "Hephaestus forge"
+hephaestus_forge.place_result = "hephaestus_forge"
 hephaestus_forge.icons = {
     {
         icon = hephaestus_forge.icon,
@@ -12,7 +12,7 @@ hephaestus_forge.icons = {
 hephaestus_forge.minable.results = {
     {
         type = "item",
-        name = "Hephaestus forge",
+        name = "hephaestus_forge",
         amount_min = 1,
         amount_max = 1
     }
@@ -23,13 +23,13 @@ hephaestus_forge.crafting_categories = {"smelting"}
 hephaestus_forge.energy_source =
 {
   type = "electric",
-  emissions = 0.072 / 1.5,
+  emissions = 10,
   usage_priority = "secondary-input"
 }
 hephaestus_forge.result_inventory_size = 3
-hephaestus_forge.energy_usage = "150kW"
+hephaestus_forge.energy_usage = "15MW"
 hephaestus_forge.mining_power = 3.5
-hephaestus_forge.max_health = 600
+hephaestus_forge.max_health = 60000
 
 local function is_sprite_def(array)
     return array.width and array.height and (array.filename or array.stripes or array.filenames)
