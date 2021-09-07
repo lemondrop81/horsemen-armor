@@ -1,3 +1,4 @@
+-- Research War's fuel
 local hellFuel = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 hellFuel.icons = {
@@ -37,6 +38,7 @@ data:extend({
 }
 )
 
+-- Research Death's fuel
 local deathJuice = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 deathJuice.icons = {
@@ -76,6 +78,7 @@ data:extend({
 }
 )
 
+-- Research Famine's fuel
 local famineFanta = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 famineFanta.icons = {
@@ -115,6 +118,7 @@ data:extend({
 }
 )
 
+-- Research Pestilence's fuel
 local pestilencePunch = table.deepcopy(data.raw["item"]["nuclear-fuel"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 pestilencePunch.icons = {
