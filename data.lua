@@ -7,6 +7,7 @@ require("prototypes.item.furnace")
 require("prototypes.item.belt")
 require("prototypes.item.substation")
 require("prototypes.item.assembling_machine")
+require("prototypes.item.turret")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -19,6 +20,7 @@ require("prototypes.recipe.furnace")
 require("prototypes.recipe.belt")
 require("prototypes.recipe.substation")
 require("prototypes.recipe.assembling_machine")
+require("prototypes.recipe.turret")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
@@ -35,3 +37,5 @@ require("prototypes.entity.furnace")
 require("prototypes.entity.belt")
 require("prototypes.entity.substation")
 require("prototypes.entity.assembling_machine")
+require("prototypes.entity.turret")
+
