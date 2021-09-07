@@ -1,4 +1,5 @@
-local warMachine = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+-- Research War's spider vehicle
+local warMachine = table.deepcopy(data.raw["spider-vehicle"]["spidertron"])
 
 warMachine.icons = {
   {
@@ -37,7 +38,8 @@ data:extend({
 }
 )
 
-local deathParade = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+-- Research Death's spider vehicle
+local deathParade = table.deepcopy(data.raw["spider-vehicle"]["spidertron"])
 
 deathParade.icons = {
   {
@@ -76,7 +78,8 @@ data:extend({
 }
 )
 
-local earthScorcher = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+-- Research Famine's spider vehicle
+local earthScorcher = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) 
 
 earthScorcher.icons = {
   {
@@ -115,7 +118,8 @@ data:extend({
 }
 )
 
-local bubonicPlague = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+-- Research Pestilence's spider vehicle
+local bubonicPlague = table.deepcopy(data.raw["spider-vehicle"]["spidertron"]) 
 
 bubonicPlague.icons = {
   {
