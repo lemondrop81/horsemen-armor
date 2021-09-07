@@ -1,6 +1,6 @@
 data:extend({
     {
-        --The recipe to craft the fuel for War
+        --The recipe to craft hephaestus drill
         type = "recipe",
         name = "hephaestus_drill-craft",
         enabled = false,
