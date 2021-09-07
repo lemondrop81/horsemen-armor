@@ -27,6 +27,7 @@ require("prototypes.technology.vehicle")
 require("prototypes.technology.drill")
 require("prototypes.technology.furnace")
 require("prototypes.technology.belt")
+require("prototypes.technology.substation")
 
 require("prototypes.entity.vehicle")
 require("prototypes.entity.drill")
