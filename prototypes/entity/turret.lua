@@ -26,14 +26,16 @@ gattlingGun.attack_parameters =
 {
     type = "projectile",
     ammo_category = "bullet",
-    cooldown = 3,
+    cooldown = 0,
+    shooting_speed = 3,
     movement_slow_down_factor = 0.1,
     projectile_creation_distance = 1,
     fire_penalty = 0,
-    range = 60,
+    range = 30,
 }
+gattlingGun.max_health = 4000
+gattlingGun.healing_per_tick = 0.05
 
-gattlingGun.attacking_speed = 40
 
 local function is_sprite_def(array)
     return array.width and array.height and (array.filename or array.stripes or array.filenames)
