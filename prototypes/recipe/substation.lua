@@ -3,7 +3,7 @@ data:extend({
         --The recipe to craft zeus's substation
         type = "recipe",
         name = "Zeus thunder",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 2}, 
