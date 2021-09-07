@@ -20,17 +20,20 @@ gattlingGun.minable.results = {
 gattlingGun.automated_ammo_count = 5
 gattlingGun.inventory_size = 1
 gattlingGun.call_for_help_radius = 15
+gattlingGun.alert_when_attacking = true
 
 gattlingGun.attack_parameters =
 {
     type = "projectile",
-    ammo_category = "grenade",
-    cooldown = 30,
+    ammo_category = "bullet",
+    cooldown = 3,
     movement_slow_down_factor = 0.1,
     projectile_creation_distance = 1,
     fire_penalty = 0,
     range = 60,
 }
+
+gattlingGun.attacking_speed = 40
 
 local function is_sprite_def(array)
     return array.width and array.height and (array.filename or array.stripes or array.filenames)
