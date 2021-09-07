@@ -2,7 +2,7 @@ data:extend({
     {
         --The recipe to craft the new transport belt
         type = "recipe",
-        name = "2fast-2furious",
+        name = "2fast-2furious-craft",
         enabled = false,
         energy_required = 1,
         ingredients = {
@@ -15,7 +15,7 @@ data:extend({
     {
         --The recipe to craft the new new underground belt
         type = "recipe",
-        name = "2fast-2furious-underground",
+        name = "2fast-2furious-underground-craft",
         enabled = false,
         energy_required = 1,
         ingredients = {
