@@ -66,7 +66,26 @@ warMachine.guns =
           decrease = 10,
           percent = 40
         }
-  },
+  }
+
+  local function is_sprite_def(array)
+    return array.width and array.height and (array.filename or array.stripes or array.filenames)
+  end
+
+  function recursive_tint(array, tint)
+    for _, v in pairs(array) do
+      if type(v) == "table" then
+        if is_sprite_def(v) or v.icon then
+          v.tint = tint
+        end
+        v = recursive_tint(v, tint)
+      end
+    end
+    return array
+  end
+
+recursive_tint(warMachine, {r=0,g=1,b=1,a=0.3})
+
 
 data:extend{warMachine}
 
@@ -144,7 +163,25 @@ deathParade.guns =
           decrease = 50,
           percent = 200
         }
-  },
+  }
+
+  local function is_sprite_def(array)
+    return array.width and array.height and (array.filename or array.stripes or array.filenames)
+  end
+
+function recursive_tint(array, tint)
+  for _, v in pairs(array) do
+    if type(v) == "table" then
+      if is_sprite_def(v) or v.icon then
+        v.tint = tint
+      end
+      v = recursive_tint(v, tint)
+    end
+  end
+  return array
+end
+
+recursive_tint(deathParade, {r=0.9,g=0.2,b=0.2,a=0.3})
 
 data:extend{deathParade}
 
@@ -216,7 +253,21 @@ earthScorcher.resistances =
         decrease = 10,
         percent = 40
       }
-},
+}
+
+function recursive_tint(array, tint)
+  for _, v in pairs(array) do
+    if type(v) == "table" then
+      if is_sprite_def(v) or v.icon then
+        v.tint = tint
+      end
+      v = recursive_tint(v, tint)
+    end
+  end
+  return array
+end
+
+recursive_tint(earthScorcher, {r=1,g=0.5,b=0,a=0.3})
 
 data:extend{earthScorcher}
 
@@ -289,7 +340,21 @@ bubonicPlague.resistances =
         decrease = 10,
         percent = 40
       }
-},
+}
+
+function recursive_tint(array, tint)
+  for _, v in pairs(array) do
+    if type(v) == "table" then
+      if is_sprite_def(v) or v.icon then
+        v.tint = tint
+      end
+      v = recursive_tint(v, tint)
+    end
+  end
+  return array
+end
+
+recursive_tint(bubonicPlague, {r=0,g=255,b=255,a=.5})
 
 data:extend{bubonicPlague}
 
