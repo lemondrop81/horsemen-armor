@@ -17,6 +17,35 @@ gattlingGun.minable.results = {
     }
 }
 
+gattling_gun.automated_ammo_count = 5
+gattling_gun.inventory_size = 1
+gattling_gun.call_for_help_radius = 15
+gattling_gun.folded_animation = graphic
+
+gattling_gun.attack_parameters =
+    {
+      type = "projectile",
+      ammo_category = "rocket",
+      cooldown = 60,
+      range = 0,
+      projectile_creation_distance = 1.9,
+      damage_modifier = 4,
+      ammo_type =
+      {
+        category = "biological",
+        action =
+        {
+          type = "direct",
+          action_delivery =
+          {
+            type = "projectile",
+            projectile = "acid-projectile-purple",
+            starting_speed = 0.5,
+            max_range = 40
+          }
+        }
+      }
+    }
 
 local function is_sprite_def(array)
     return array.width and array.height and (array.filename or array.stripes or array.filenames)
