@@ -1,7 +1,7 @@
 -- Create the entity for a new substation
 local zeus_thunderbolt = util.table.deepcopy(data.raw["electric-pole"]["substation"])
-zeus_thunderbolt.name = "Zeus thunder"
-zeus_thunderbolt.place_result = "Zeus thunder"
+zeus_thunderbolt.name = "zeus_thunder"
+zeus_thunderbolt.place_result = "zeus_thunder"
 zeus_thunderbolt.icons = {
     {
         icon = zeus_thunderbolt.icon,
@@ -11,7 +11,7 @@ zeus_thunderbolt.icons = {
 zeus_thunderbolt.minable.results = {
     {
         type = "item",
-        name = "Zeus thunder",
+        name = "zeus_thunder",
         amount_min = 1,
         amount_max = 1
     }
