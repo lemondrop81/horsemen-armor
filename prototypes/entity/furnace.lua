@@ -1,4 +1,4 @@
--- Create the entitee for the new drill
+-- Create the entitee for the new furnace
 local hephaestus_forge = util.table.deepcopy(data.raw["furnace"]["electric-furnace"])
 hephaestus_forge.name = "hephaestus_forge"
 hephaestus_forge.crafting_speed = 50
