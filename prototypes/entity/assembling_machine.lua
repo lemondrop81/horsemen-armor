@@ -1,7 +1,7 @@
 -- Create the entity for a new assembling machine
 local hephaestus_Builders = util.table.deepcopy(data.raw["assembling-machine"]["assembling-machine-3"])
-hephaestus_Builders.name = "Hephaestus Builders"
-hephaestus_Builders.place_result = "Hephaestus Builders"
+hephaestus_Builders.name = "hephaestus_builders"
+hephaestus_Builders.place_result = "hephaestus_builders"
 hephaestus_Builders.icons = {
     {
         icon = hephaestus_Builders.icon,
@@ -11,7 +11,7 @@ hephaestus_Builders.icons = {
 hephaestus_Builders.minable.results = {
     {
         type = "item",
-        name = "Hephaestus Builders",
+        name = "hephaestus_builders",
         amount_min = 1,
         amount_max = 1
     }
@@ -22,10 +22,10 @@ hephaestus_Builders.crafting_speed = 40
 hephaestus_Builders.energy_source =
 {
   type = "electric",
-  emissions = 0.072 / 1.5,
+  emissions = 10,
   usage_priority = "secondary-input"
 }
-hephaestus_Builders.energy_usage = "150kW"
+hephaestus_Builders.energy_usage = "150MW"
 
 
 local function is_sprite_def(array)
