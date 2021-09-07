@@ -3,7 +3,7 @@ data:extend({
         --The recipe to craft the new transport belt
         type = "recipe",
         name = "2fast-2furious",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 2}, 
@@ -15,7 +15,7 @@ data:extend({
         --The recipe to craft the new new underground belt
         type = "recipe",
         name = "2fast-2furious-underground",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 2}, 
