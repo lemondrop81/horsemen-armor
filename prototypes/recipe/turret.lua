@@ -6,7 +6,7 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "wood", 1}, 
+            { "iron-plate", 1}, 
         },
         result = "gattling_gun",
         requester_paste_multiplier = 15
@@ -18,7 +18,7 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "wood", 1}, 
+            { "iron-plate", 1}, 
         },
         result = "flame_gun",
         requester_paste_multiplier = 15

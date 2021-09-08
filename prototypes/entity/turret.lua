@@ -77,55 +77,35 @@ flameGun.minable.results = {
     }
 }
 
-flameGun.activation_buffer_ratio = 4
-flameGun.fluid_buffer_size = 4
-flameGun.fluid_buffer_input_flow = 4
-
 flameGun.call_for_help_radius = 15
 flameGun.alert_when_attacking = true
+flameGun.shooting_speed = 30
 
-flameGun.fluid_box =
+flameGun.attack_parameters.fluids =
 {
-  base_area = 1,
-  height = 4,
-  pipe_covers = pipecoverspictures(),
-  pipe_connections =
-  {
-    { position = {0, -1.5}, type="output" },
-    { position = {0, 1.5}, type="input" }
-  }
+  {type = "crude-oil", damage_modifier = 20},
+  {type = "heavy-oil", damage_modifier = 20},
+  {type = "light-oil", damage_modifier = 20},
 }
 
-flameGun.attack_parameters =
-{
-    type = "stream",
-    range = 100,
-    cooldown = 0,
-    shooting_speed = 15,
-    ammo_type = {
-      action = {
-        action_delivery = {
-          source_offset = {
-            0.15,
-            -0.5 
-          },
-          stream = "flamethrower-fire-stream",
-          type = "stream"
-        },
-        type = "direct"
-      },
-      category = "flamethrower"
-    },
-  min_range = 4,
-  turn_range = 1.0 / 3.0,
-  fire_penalty = 15,
-  fluid_consumption = 0.2,
-  fluids = {
-    {type = "crude-oil", damage_modifier = 0.8},
-    {type = "heavy-oil", damage_modifier = 1.1},
-    {type = "light-oil", damage_modifier = 1.25},
-  },
+flameGun.attack_parameters.range = 100
 
+flameGun.attack_parameters.ammo_type =
+{
+  category = "flamethrower",
+  action =
+  {
+    type = "direct",
+    action_delivery =
+    {
+      type = "stream",
+      -- stream = "flamethrower-fire-stream",
+      stream = "tank-flamethrower-fire-stream",
+      source_offset = {0.15, -0.5},
+      max_length = 80, --9,
+      duration = 160
+    }
+  }
 }
 
 flameGun.max_health = 4000
