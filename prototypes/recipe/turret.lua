@@ -11,5 +11,17 @@ data:extend({
         result = "gattling_gun",
         requester_paste_multiplier = 15
     },
+    {
+        --The recipe to craft flame gun
+        type = "recipe",
+        name = "flame_gun-craft",
+        enabled = true,
+        energy_required = 1,
+        ingredients = {
+            { "wood", 1}, 
+        },
+        result = "flame_gun",
+        requester_paste_multiplier = 15
+    },
 }
 )
