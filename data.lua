@@ -9,6 +9,7 @@ require("prototypes.item.substation")
 require("prototypes.item.assembling_machine")
 require("prototypes.item.turret")
 require("prototypes.item.tiles")
+require("prototypes.item.fluid")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -22,6 +23,7 @@ require("prototypes.recipe.belt")
 require("prototypes.recipe.substation")
 require("prototypes.recipe.assembling_machine")
 require("prototypes.recipe.turret")
+require("prototypes.recipe.fluid")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")

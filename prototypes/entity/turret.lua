@@ -83,9 +83,10 @@ flameGun.shooting_speed = 30
 
 flameGun.attack_parameters.fluids =
 {
-  {type = "crude-oil", damage_modifier = 20},
-  {type = "heavy-oil", damage_modifier = 20},
-  {type = "light-oil", damage_modifier = 20},
+  {type = "crude-oil", damage_modifier = 5},
+  {type = "heavy-oil", damage_modifier = 5},
+  {type = "light-oil", damage_modifier = 5},
+  {type = "chocolate", damage_modifier = 200},
 }
 
 flameGun.attack_parameters.range = 100
