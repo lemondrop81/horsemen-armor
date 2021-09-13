@@ -4,11 +4,12 @@ data:extend({
         type = "recipe",
         name = "hell-fuel-craft",
         enabled = false,
+        category = "crafting-with-fluid",
         energy_required = 25,
         ingredients = {
             { "explosives", 200}, 
             { "rocket-fuel", 10},
-            {type="fluid", name="chocolate", amount=25}
+            {type="fluid", name="chocolate", amount=25},
         },
         result = "hell-fuel",
         requester_paste_multiplier = 15
@@ -19,6 +20,7 @@ data:extend({
         type = "recipe",
         name = "death-juice-craft",
         enabled = false,
+        category = "crafting-with-fluid",
         energy_required = 25,
         ingredients = {
             { "famine-fanta", 20}, 
@@ -34,11 +36,12 @@ data:extend({
         type = "recipe",
         name = "famine-fanta-craft",
         enabled = false,
+        category = "crafting-with-fluid",
         energy_required = 25,
         ingredients = {
             { "sulfur", 50},
             { "rocket-fuel", 10},
-            {type="fluid", name="chocolate", amount=25}
+            {type="fluid", name="chocolate", amount=25},
         },
         result = "famine-fanta",
         requester_paste_multiplier = 15
@@ -49,10 +52,11 @@ data:extend({
         type = "recipe",
         name = "pestilence-punch-craft",
         enabled = false,
+        category = "crafting-with-fluid",
         energy_required = 25,
         ingredients = {
             { "rocket-fuel", 10},
-            {type="fluid", name="chocolate", amount=25}
+            {type="fluid", name="chocolate", amount=25},
             { "coal", 100},
         },
         result = "pestilence-punch",
