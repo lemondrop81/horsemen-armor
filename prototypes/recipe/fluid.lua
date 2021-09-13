@@ -4,7 +4,7 @@ data:extend({
         name = "black_liquor",
         icon = "__horsemen-armor__/graphics/icons/furnace.png",
         icon_size = 64,
-        subgroup = "fluid",
+        subgroup = "fluid-recipes",
         category = "chemistry",
         enabled = true,
         energy_required = 1,

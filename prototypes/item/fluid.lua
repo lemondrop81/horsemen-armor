@@ -9,7 +9,6 @@ data:extend({
         max_temperature = 100,
         icon = "__horsemen-armor__/graphics/icons/furnace.png",
         icon_size = 64,
-        order = "a[fluid]-g[water]",
         gas_temperature = -252.76,
         fuel_value = "45kJ", --"90KJ", -- should be 100k, but i'm balancing, halved for 0.17
         emissions_multiplier = 0.1,
