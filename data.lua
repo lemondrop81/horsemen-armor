@@ -8,6 +8,7 @@ require("prototypes.item.belt")
 require("prototypes.item.substation")
 require("prototypes.item.assembling_machine")
 require("prototypes.item.turret")
+require("prototypes.item.tiles")
 
 require("prototypes.equipment.equipment-grid")
 
