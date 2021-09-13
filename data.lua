@@ -42,5 +42,4 @@ require("prototypes.entity.substation")
 require("prototypes.entity.assembling_machine")
 require("prototypes.entity.turret")
 
-require("prototypes.resource.brimestone")
 
