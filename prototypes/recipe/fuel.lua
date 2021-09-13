@@ -8,7 +8,7 @@ data:extend({
         ingredients = {
             { "explosives", 200}, 
             { "rocket-fuel", 10},
-            { "crude-oil-barrel", 10},
+            {type="fluid", name="chocolate", amount=25}
         },
         result = "hell-fuel",
         requester_paste_multiplier = 15
@@ -38,7 +38,7 @@ data:extend({
         ingredients = {
             { "sulfur", 50},
             { "rocket-fuel", 10},
-            { "light-oil-barrel", 10},
+            {type="fluid", name="chocolate", amount=25}
         },
         result = "famine-fanta",
         requester_paste_multiplier = 15
@@ -52,7 +52,7 @@ data:extend({
         energy_required = 25,
         ingredients = {
             { "rocket-fuel", 10},
-            { "heavy-oil-barrel", 10},
+            {type="fluid", name="chocolate", amount=25}
             { "coal", 100},
         },
         result = "pestilence-punch",
