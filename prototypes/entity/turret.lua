@@ -60,8 +60,8 @@ data:extend{gattlingGun}
 
 -- Create the entity for a new fluid turret
 local flameGun = util.table.deepcopy(data.raw["fluid-turret"]["flamethrower-turret"])
-flameGun.name = "flame_gun"
-flameGun.place_result = "flame_gun"
+flameGun.name = "hephaestus_gun"
+flameGun.place_result = "hephaestus_gun"
 flameGun.icons = {
     {
         icon = flameGun.icon,
@@ -71,7 +71,7 @@ flameGun.icons = {
 flameGun.minable.results = {
     {
         type = "item",
-        name = "flame_gun",
+        name = "hephaestus_gun",
         amount_min = 1,
         amount_max = 1
     }
