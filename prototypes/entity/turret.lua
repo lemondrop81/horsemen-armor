@@ -86,7 +86,7 @@ flameGun.attack_parameters.fluids =
   {type = "crude-oil", damage_modifier = 5},
   {type = "heavy-oil", damage_modifier = 5},
   {type = "light-oil", damage_modifier = 5},
-  {type = "chocolate", damage_modifier = 200},
+  {type = "black_liquor", damage_modifier = 200},
 }
 
 flameGun.attack_parameters.range = 100

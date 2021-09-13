@@ -1,7 +1,7 @@
 data:extend({
     {
         type = "fluid",
-        name = "chocolate",
+        name = "black_liquor",
         default_temperature = 25,
         heat_capacity = "1KJ",
         base_color = {r=0.7, g=0.7, b=0.7},

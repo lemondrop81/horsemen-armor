@@ -1,7 +1,7 @@
 data:extend({
     {
         type = "recipe",
-        name = "chocolate",
+        name = "black_liquor",
         icon = "__horsemen-armor__/graphics/icons/furnace.png",
         icon_size = 64,
         subgroup = "fluid",
@@ -18,7 +18,7 @@ data:extend({
         },
         results=
         {
-            {type="fluid", name="chocolate", amount=25}
+            {type="fluid", name="black_liquor", amount=25}
         },
         crafting_machine_tint =
         {
