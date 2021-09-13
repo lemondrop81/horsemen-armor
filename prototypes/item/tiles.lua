@@ -2,9 +2,9 @@
 
 -- DEFINE TYPES OF NEW CONCRETES
 local concretes = {}
-concretes[1] = { name = 'warning-concrete', speed = 0.001 }
-concretes[2] = { name = 'express-concrete', speed = 20 }
-concretes[3] = { name = 'green-concrete', speed = 8 }
+concretes[1] = { name = 'sticky-concrete', speed = 0.001 }
+concretes[2] = { name = 'highway-concrete', speed = 20 }
+concretes[3] = { name = 'road-concrete', speed = 8 }
 
 for _, concrete in pairs(concretes) do 
     -- ADD TILES
@@ -104,5 +104,5 @@ for _, concrete in pairs(concretes) do
     -- RESEARCH
 
     table.insert(data.raw.technology["concrete"].effects,{type = "unlock-recipe", recipe = concrete.name})
-    table.insert(data.raw.technology["concrete"].effects,{type = "unlock-recipe", recipe = 'refined-' .. concrete.name})
+   
 end
