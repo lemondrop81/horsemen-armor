@@ -1,5 +1,5 @@
-bauxite = {
-    name = "bauxite",
+beryllium = {
+    name = "beryllium",
     tint = {r = 3, g = 252, b = 248},
     map_color = {r = 3, g = 252, b = 248},
     hardness = 1.4,
@@ -7,7 +7,7 @@ bauxite = {
     required_fluid = "black_liquor",
     fluid_amount = 200,
     enabled = true,
-    icon = "__horsemen-armor__/graphics/icons/bauxite-ore.png",
+    icon = "__horsemen-armor__/graphics/icons/beryllium-ore.png",
     stage_mult = 10,
     item = {
         create = true,
@@ -42,5 +42,5 @@ local function is_sprite_def(array)
   return array
   end
   
-recursive_tint(bauxite, {r = 3, g = 252, b = 248})
+recursive_tint(beryllium, {r = 3, g = 252, b = 248})
 
