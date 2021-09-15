@@ -6,7 +6,9 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "gun-turret", 2}, 
+            { "advanced-circuit", 10}, 
+            { "steel-plate", 10}, 
         },
         result = "gattling_gun",
         requester_paste_multiplier = 15
@@ -18,7 +20,9 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "flamethrower-turret", 2}, 
+            { "advanced-circuit", 10}, 
+            { "steel-plate", 10}, 
         },
         result = "hephaestus_gun",
         requester_paste_multiplier = 15
