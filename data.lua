@@ -10,7 +10,7 @@ require("prototypes.item.assembling_machine")
 require("prototypes.item.turret")
 require("prototypes.item.tiles")
 require("prototypes.item.fluid")
-require("prototypes.item.bauxite")
+require("prototypes.item.beryllium")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -25,7 +25,7 @@ require("prototypes.recipe.substation")
 require("prototypes.recipe.assembling_machine")
 require("prototypes.recipe.turret")
 require("prototypes.recipe.fluid")
-require("prototypes.recipe.bauxite")
+require("prototypes.recipe.beryllium")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
@@ -44,7 +44,7 @@ require("prototypes.entity.substation")
 require("prototypes.entity.assembling_machine")
 require("prototypes.entity.turret")
 
-require("prototypes.ores.bauxite")
+require("prototypes.ores.beryllium")
 
 
-bobmods.lib.resource.generate(bauxite)
+bobmods.lib.resource.generate(beryllium)
