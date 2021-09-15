@@ -4,27 +4,27 @@ data:extend(
         --Recipe
         {
             type = "recipe",
-            name = "aluminium-plate",
+            name = "beryllium-plate",
             category = "smelting",
             energy_required = 100,
             ingredients = {{"beryllium", 2}},
-            result = "aluminium-plate"
+            result = "beryllium-plate"
         },
         --Recipe
         {
             type = "recipe",
-            name = "aluminium-wire",
-            ingredients = {{"aluminium-plate", 1}},
+            name = "beryllium-wire",
+            ingredients = {{"beryllium-plate", 1}},
             result_count = 4,
-            result = "aluminium-wire"
+            result = "beryllium-wire"
         },
         --Recipe
         {
             type = "recipe",
-            name = "aluminium-gear",
-            ingredients = {{"aluminium-plate", 1}},
+            name = "beryllium-gear",
+            ingredients = {{"beryllium-plate", 1}},
             result_count = 4,
-            result = "aluminium-gear"
+            result = "beryllium-gear"
         }
     }
 )
