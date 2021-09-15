@@ -9,6 +9,8 @@ data:extend({
             { "big-electric-pole", 15}, 
             { "substation", 15}, 
             { "nuclear-reactor", 1}, 
+            { "beryllium-wire", 20}, 
+            
         },
         result = "zeus_thunder",
         requester_paste_multiplier = 15
