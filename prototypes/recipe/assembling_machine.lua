@@ -9,6 +9,7 @@ data:extend({
             { "assembling-machine-3", 5}, 
             { "processing-unit", 5}, 
             { "nuclear-reactor", 5}, 
+            { "beryllium-plate", 5}, 
         },
         result = "hephaestus_builders",
         requester_paste_multiplier = 15

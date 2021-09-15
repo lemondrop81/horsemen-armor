@@ -9,6 +9,7 @@ data:extend({
         ingredients = {
             { "hell-fire", 2}, 
             { "spidertron", 2}, 
+            { "beryllium-plate", 5}, 
         },
         result = "war-machine",
     },
@@ -22,8 +23,7 @@ data:extend({
         ingredients = {
             { "bubonic-plague", 1}, 
             { "earth-scorcher", 1}, 
-            { "war-machine", 1}, 
-            
+            { "war-machine", 1},             
         },
         result = "death-parade",
     },
@@ -37,6 +37,7 @@ data:extend({
         ingredients = {
             { "acid-spray", 2}, 
             { "spidertron", 2}, 
+            { "beryllium-plate", 5}, 
         },
         result = "earth-scorcher",
     },
@@ -50,6 +51,7 @@ data:extend({
         ingredients = {
             { "poison-powder", 2}, 
             { "spidertron", 2},  
+            { "beryllium-plate", 5}, 
         },
         result = "bubonic-plague",
     },
