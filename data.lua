@@ -10,6 +10,7 @@ require("prototypes.item.assembling_machine")
 require("prototypes.item.turret")
 require("prototypes.item.tiles")
 require("prototypes.item.fluid")
+require("prototypes.item.bauxite")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -42,7 +43,7 @@ require("prototypes.entity.substation")
 require("prototypes.entity.assembling_machine")
 require("prototypes.entity.turret")
 
-require("prototypes.ores.brimestone")
+require("prototypes.ores.bauxite")
 
 
-bobmods.lib.resource.generate(brimestone)
+bobmods.lib.resource.generate(bauxite)
