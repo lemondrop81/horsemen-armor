@@ -25,6 +25,7 @@ require("prototypes.recipe.substation")
 require("prototypes.recipe.assembling_machine")
 require("prototypes.recipe.turret")
 require("prototypes.recipe.fluid")
+require("prototypes.recipe.bauxite")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")

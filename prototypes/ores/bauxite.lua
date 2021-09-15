@@ -4,6 +4,7 @@ bauxite = {
     map_color = {r = 3, g = 252, b = 248},
     hardness = 1.4,
     mining_time = 2,
+    required_fluid = "water",
     enabled = true,
     icon = "__horsemen-armor__/graphics/icons/bauxite-ore.png",
     stage_mult = 10,
