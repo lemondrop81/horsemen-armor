@@ -6,7 +6,7 @@ data:extend(
             type = "recipe",
             name = "aluminium-plate",
             category = "smelting",
-            energy_required = 10,
+            energy_required = 100,
             ingredients = {{"bauxite", 2}},
             result = "aluminium-plate"
         },

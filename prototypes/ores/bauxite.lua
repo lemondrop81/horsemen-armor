@@ -20,7 +20,9 @@ bauxite = {
         create = true,
         starting_area = false,
         richness = 0.8,
-        size = 1.5
+        size = 1.5,
+        base_spots_per_km2 = 0.6,
+        random_probability = 1/600
     }
 }
 
