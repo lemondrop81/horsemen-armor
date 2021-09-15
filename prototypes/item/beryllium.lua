@@ -1,47 +1,47 @@
--- Create the aluminium plate item
-local aluminiumPlate = util.table.deepcopy(data.raw["item"]["iron-plate"])
-aluminiumPlate.name = "aluminium-plate"
-aluminiumPlate.type = "item"
-aluminiumPlate.order = "f"
-aluminiumPlate.icons = {
+-- Create the beryllium plate item
+local berylliumPlate = util.table.deepcopy(data.raw["item"]["iron-plate"])
+berylliumPlate.name = "beryllium-plate"
+berylliumPlate.type = "item"
+berylliumPlate.order = "f"
+berylliumPlate.icons = {
   {
-    icon = aluminiumPlate.icon,
+    icon = berylliumPlate.icon,
     tint = {r=0.9,g=0.2,b=0.2,a=0.3}
   },
 }
 
-aluminiumPlate.stack_size = 100
+berylliumPlate.stack_size = 100
 
-data:extend{aluminiumPlate}
+data:extend{berylliumPlate}
 
--- Create the aluminium wire item
-local aluminiumWire = util.table.deepcopy(data.raw["item"]["copper-cable"])
-aluminiumWire.name = "aluminium-wire"
-aluminiumWire.type = "item"
-aluminiumWire.order = "e"
-aluminiumWire.icons = {
+-- Create the beryllium wire item
+local berylliumWire = util.table.deepcopy(data.raw["item"]["copper-cable"])
+berylliumWire.name = "beryllium-wire"
+berylliumWire.type = "item"
+berylliumWire.order = "e"
+berylliumWire.icons = {
   {
-    icon = aluminiumWire.icon,
+    icon = berylliumWire.icon,
     tint = {r=0.9,g=0.2,b=0.2,a=0.3}
   },
 }
 
-aluminiumWire.stack_size = 200
+berylliumWire.stack_size = 200
 
-data:extend{aluminiumWire}
+data:extend{berylliumWire}
 
--- Create the aluminium gear wheel item
-local aluminiumGear = util.table.deepcopy(data.raw["item"]["iron-gear-wheel"])
-aluminiumGear.name = "aluminium-gear"
-aluminiumGear.type = "item"
-aluminiumGear.order = "d"
-aluminiumGear.icons = {
+-- Create the beryllium gear wheel item
+local berylliumGear = util.table.deepcopy(data.raw["item"]["iron-gear-wheel"])
+berylliumGear.name = "beryllium-gear"
+berylliumGear.type = "item"
+berylliumGear.order = "d"
+berylliumGear.icons = {
   {
-    icon = aluminiumGear.icon,
+    icon = berylliumGear.icon,
     tint = {r=0.9,g=0.2,b=0.2,a=0.3}
   },
 }
 
-aluminiumGear.stack_size = 200
+berylliumGear.stack_size = 200
 
-data:extend{aluminiumGear}
+data:extend{berylliumGear}
