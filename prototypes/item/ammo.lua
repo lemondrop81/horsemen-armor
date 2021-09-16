@@ -11,7 +11,7 @@ blackDeath.icons = {
 blackDeath.magazine_size = 666.0
 blackDeath.ammo_type =
     {
-      range_modifier = 2,
+      range_modifier = 4,
       category = "rocket",
       action =
       {
@@ -32,14 +32,14 @@ blackDeath.ammo_type =
             },
             {
               type = "damage",
-              damage = { amount = 55, type = "decay"}
+              damage = { amount = 666, type = "decay"}
             },
             {
               type = "nested-result",
               action =
               {
                 type = "area",
-                radius = 55,
+                radius = 666,
                 action_delivery =
                 {
                   type = "instant",
@@ -47,7 +47,7 @@ blackDeath.ammo_type =
                   {
                     {
                       type = "damage",
-                      damage = {amount = 50, type = "decay"}
+                      damage = {amount = 666, type = "decay"}
                     },
                   }
                 }
