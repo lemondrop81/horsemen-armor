@@ -29,8 +29,8 @@ data:extend(
           },
           {
             type = "poison",
-            decrease = 0,
-            percent = 100
+            decrease = 20,
+            percent = 60
           },
           {
             type = "fire",
@@ -46,7 +46,22 @@ data:extend(
             type = "electric",
             decrease = 20,
             percent = 50
-          }
+          },
+          {
+            type = "toxicity",
+            decrease = 0,
+            percent = 100
+          },
+          {
+            type = "corrosive",
+            decrease = 20,
+            percent = 60
+          },
+          {
+            type = "decay",
+            decrease = 15,
+            percent = 40
+          },
     },
     subgroup = "armor",
     stack_size = 1,
@@ -100,7 +115,22 @@ data:extend(
             type = "electric",
             decrease = 20,
             percent = 50
-          }
+          },
+          {
+            type = "toxicity",
+            decrease = 20,
+            percent = 50
+          },
+          {
+            type = "corrosive",
+            decrease = 20,
+            percent = 50
+          },
+          {
+            type = "decay",
+            decrease = 15,
+            percent = 40
+          },
     },
     subgroup = "armor",
     stack_size = 1,
@@ -154,7 +184,22 @@ data:extend(
             type = "electric",
             decrease = 20,
             percent = 50
-          }
+          },
+          {
+            type = "toxicity",
+            decrease = 20,
+            percent = 60
+          },
+          {
+            type = "corrosive",
+            decrease = 0,
+            percent = 100
+          },
+          {
+            type = "decay",
+            decrease = 15,
+            percent = 40
+          },
     },
     subgroup = "armor",
     stack_size = 1,
@@ -208,7 +253,22 @@ data:extend(
             type = "electric",
             decrease = 50,
             percent = 200
-          }
+          },
+          {
+            type = "toxicity",
+            decrease = 50,
+            percent = 200
+          },
+          {
+            type = "corrosive",
+            decrease = 50,
+            percent = 200
+          },
+          {
+            type = "decay",
+            decrease = 50,
+            percent = 200
+          },
     },
     subgroup = "armor",
     stack_size = 1,
