@@ -52,6 +52,6 @@ require("prototypes.entity.robots")
 
 require("prototypes.ores.beryllium")
 
-require("prototypes.damages.toxicity-damage")
+require("prototypes.damages.damage-initilization")
 
 bobmods.lib.resource.generate(beryllium)

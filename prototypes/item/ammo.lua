@@ -11,22 +11,48 @@ blackDeath.icons = {
 blackDeath.magazine_size = 666.0
 blackDeath.ammo_type =
     {
-      range_modifier = 4,
-      cooldown_modifier = 1,
-      target_type = "position",
+      range_modifier = 2,
       category = "rocket",
       action =
       {
         type = "direct",
         action_delivery =
         {
-          type = "projectile",
-          projectile = "atomic-rocket",
-          starting_speed = 5,
+          type = "instant",
           source_effects =
           {
             type = "create-entity",
-            entity_name = "nuke-explosion"
+            entity_name = "explosion-gunshot"
+          },
+          target_effects =
+          {
+            {
+              type = "create-entity",
+              entity_name = "spark-explosion-higher"
+            },
+            {
+              type = "damage",
+              damage = { amount = 55, type = "decay"}
+            },
+            {
+              type = "nested-result",
+              action =
+              {
+                type = "area",
+                radius = 55,
+                action_delivery =
+                {
+                  type = "instant",
+                  target_effects =
+                  {
+                    {
+                      type = "damage",
+                      damage = {amount = 50, type = "decay"}
+                    },
+                  }
+                }
+              }
+            }
           }
         }
       }
