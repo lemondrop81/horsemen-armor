@@ -10,6 +10,7 @@ require("prototypes.item.assembling_machine")
 require("prototypes.item.turret")
 require("prototypes.item.tiles")
 require("prototypes.item.fluid")
+require("prototypes.item.robots")
 require("prototypes.item.beryllium")
 
 require("prototypes.equipment.equipment-grid")
@@ -25,6 +26,7 @@ require("prototypes.recipe.substation")
 require("prototypes.recipe.assembling_machine")
 require("prototypes.recipe.turret")
 require("prototypes.recipe.fluid")
+require("prototypes.recipe.robots")
 require("prototypes.recipe.beryllium")
 
 require("prototypes.technology.horsemen-armor")
@@ -43,6 +45,7 @@ require("prototypes.entity.belt")
 require("prototypes.entity.substation")
 require("prototypes.entity.assembling_machine")
 require("prototypes.entity.turret")
+require("prototypes.entity.robots")
 
 require("prototypes.ores.beryllium")
 
