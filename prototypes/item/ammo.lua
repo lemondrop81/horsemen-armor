@@ -157,14 +157,14 @@ acidSpray.ammo_type =
             },
             {
               type = "damage",
-              damage = { amount = 55, type = "acid"}
+              damage = { amount = 20, type = "corrosive"}
             },
             {
               type = "nested-result",
               action =
               {
                 type = "area",
-                radius = 20,
+                radius = 200,
                 action_delivery =
                 {
                   type = "instant",
@@ -172,7 +172,7 @@ acidSpray.ammo_type =
                   {
                     {
                       type = "damage",
-                      damage = {amount = 100, type = "acid"}
+                      damage = {amount = 50, type = "corrosive"}
                     },
                   }
                 }
@@ -234,7 +234,7 @@ poisonPowder.ammo_type =
                   {
                     {
                       type = "damage",
-                      damage = {amount = 500, type = "toxicity"}
+                      damage = {amount = 50, type = "toxicity"}
                     },
                   }
                 }
