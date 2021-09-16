@@ -16,9 +16,17 @@ data:extend({
 		icon = beryllium.icon,
 		effects =  {
 			{
-				type = "unlock-recipe",
-				recipe = "beryllium-plate"
-			},
+                type = "unlock-recipe",
+                recipe = "beryllium-plate",
+              },
+              {
+                type = "unlock-recipe",
+                recipe = "beryllium-wire",
+              },
+              {
+                type = "unlock-recipe",
+                recipe = "beryllium-gear",
+              },
 		},
 		prerequisites = {"war-armor", "pestilence-armor", "famine-armor"},
 		unit = {
