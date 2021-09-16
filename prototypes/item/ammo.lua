@@ -193,7 +193,7 @@ poisonPowder.ammo_type =
             },
             {
               type = "damage",
-              damage = { amount = 55, type = "physical"}
+              damage = { amount = 55, type = "toxicity"}
             },
             {
               type = "nested-result",
@@ -208,7 +208,7 @@ poisonPowder.ammo_type =
                   {
                     {
                       type = "damage",
-                      damage = {amount = 500, type = "poison"}
+                      damage = {amount = 500, type = "toxicity"}
                     },
                   }
                 }
@@ -220,3 +220,4 @@ poisonPowder.ammo_type =
     },
 
 data:extend{poisonPowder}
+
