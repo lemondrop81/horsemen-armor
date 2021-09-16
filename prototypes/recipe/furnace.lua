@@ -1,6 +1,6 @@
 data:extend({
     {
-        --The recipe to craft hephaestus forge
+        --The recipe to craft Hephaestus_forge
         type = "recipe",
         name = "hephaestus_forge-craft",
         enabled = false,
