@@ -4,6 +4,7 @@ data:extend(
         --Recipe
         {
             type = "recipe",
+            enabled = false,
             name = "beryllium-plate",
             category = "smelting",
             energy_required = 100,
@@ -13,6 +14,7 @@ data:extend(
         --Recipe
         {
             type = "recipe",
+            enabled = false,
             name = "beryllium-wire",
             ingredients = {{"beryllium-plate", 1}},
             result_count = 4,
@@ -21,6 +23,7 @@ data:extend(
         --Recipe
         {
             type = "recipe",
+            enabled = false,
             name = "beryllium-gear",
             ingredients = {{"beryllium-plate", 1}},
             result_count = 4,
