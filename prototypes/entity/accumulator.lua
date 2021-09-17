@@ -1,10 +1,10 @@
--- Create the entity for a new assembling machine
+-- Create the entity for a quick accumulator
 local quickAccumulator = util.table.deepcopy(data.raw["accumulator"]["accumulator"])
 quickAccumulator.name = "quick accumulator"
 quickAccumulator.icons = {
     {
         icon = quickAccumulator.icon,
-        tint = {r=0.4,g=0.2,b=0.7,a=0.3}
+        tint = {r=0.4,g=0.2,b=0.7,a=0.6}
     },
 }
 
@@ -28,14 +28,14 @@ quickAccumulator.drawing_box = {{-1, -1.5}, {1, 1}}
 quickAccumulator.energy_source =
 {
     type = "electric",
-    buffer_capacity = "5MJ",
+    buffer_capacity = "10MJ",
     usage_priority = "tertiary",
-    input_flow_limit = "300kW",
-    output_flow_limit = "300kW"
+    input_flow_limit = "300MW",
+    output_flow_limit = "300MW"
 }
 
-quickAccumulator.charge_cooldown = 30
-quickAccumulator.discharge_cooldown  = 60
+quickAccumulator.charge_cooldown = 10
+quickAccumulator.discharge_cooldown  = 20
 
 quickAccumulator.charge_light = {intensity = 0.3, size = 7, color = {r = 1.0, g = 1.0, b = 1.0}}
 quickAccumulator.picture = accumulator_picture()

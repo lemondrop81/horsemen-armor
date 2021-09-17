@@ -6,7 +6,7 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "assembling-machine-3", 5}, 
+            { "iron-plate", 1}, 
         },
         result = "quick accumulator",
         requester_paste_multiplier = 15
