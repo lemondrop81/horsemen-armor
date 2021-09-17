@@ -6,7 +6,7 @@ neoSteelPlate.order = "f"
 neoSteelPlate.icons = {
   {
     icon = neoSteelPlate.icon,
-    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
+    tint = {a = 0.75, b = 0, g = 0, r = 0}
   },
 }
 
@@ -22,7 +22,7 @@ neoSteelGear.order = "f"
 neoSteelGear.icons = {
   {
     icon = neoSteelGear.icon,
-    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
+    tint = {a = 0.75,  b = 0, g = 0, r = 0}
   },
 }
 

@@ -4,11 +4,11 @@ neoSteel = {
   map_color = {r = 192, g = 192, b = 192},
   hardness = 1.4,
   mining_time = 2,
-  --required_fluid = "magma",
-  --fluid_amount = 20,
+  required_fluid = "magma",
+  fluid_amount = 20,
   enabled = true,
   icons = {
-    icon = "__horsemen-armor__/graphics/icons/beryllium-ore.png",
+    icon = "__horsemen-armor__/graphics/icons/neo-steel.png",
     tint = { a = 0.75,  b = 0, g = 0, r = 0 }
   },
   stage_mult = 10,

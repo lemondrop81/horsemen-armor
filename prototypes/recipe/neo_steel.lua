@@ -6,7 +6,7 @@ data:extend(
             enabled = true,
             name = "neo-steel-plate",
             category = "smelting",
-            energy_required = 1,
+            energy_required = 15,
             ingredients = {{"neo-steel", 2}},
             result = "neo-steel-plate"
         },
