@@ -3,7 +3,7 @@ data:extend({
         --The recipe to craft the quick accumulator
         type = "recipe",
         name = "quick accumulator",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 1}, 
@@ -15,7 +15,7 @@ data:extend({
         --The recipe to craft the quilargeck accumulator
         type = "recipe",
         name = "large accumulator",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 1}, 
