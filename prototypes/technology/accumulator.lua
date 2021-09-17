@@ -24,7 +24,7 @@ data:extend({
 				recipe = "quick accumulator"
 			},
 		},
-		prerequisites = {"neoSteel-processing", "magma-processing"},
+		prerequisites = {"neoSteel-processing", "magma processing"},
 		unit = {
 			count = 100,
 			ingredients = {
