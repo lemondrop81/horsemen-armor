@@ -2,7 +2,7 @@ data:extend({
     {
         type = "recipe",
         name = "black_liquor",
-        icon = "__horsemen-armor__/graphics/icons/furnace.png",
+        icon = "__horsemen-armor__/graphics/icons/black-liquor.png",
         icon_size = 64,
         subgroup = "fluid-recipes",
         category = "chemistry",
@@ -23,6 +23,31 @@ data:extend({
         crafting_machine_tint =
         {
             primary = {r = 0.0, g = 0.7, b = 0.2, a = 0.000},
+            secondary = {r = 0.7, g = 0.7, b = 0.7, a = 0.000},
+            tertiary = {r = 0.2, g = 0.7, b = 0.0, a = 0.000},
+        },
+    },
+    {
+        type = "recipe",
+        name = "magma",
+        icon = "__horsemen-armor__/graphics/icons/magma.png",
+        icon_size = 64,
+        subgroup = "fluid-recipes",
+        category = "chemistry",
+        enabled = false,
+        energy_required = 1,
+        ingredients =
+        {
+            --{type="fluid", name="crude-oil", amount=10},
+            { "hell-fire", 10},
+        },
+        results=
+        {
+            {type="fluid", name="magma", amount=25}
+        },
+        crafting_machine_tint =
+        {
+            primary = {r = 0.7, g = 0.4, b = 0.2, a = 0.000},
             secondary = {r = 0.7, g = 0.7, b = 0.7, a = 0.000},
             tertiary = {r = 0.2, g = 0.7, b = 0.0, a = 0.000},
         },
