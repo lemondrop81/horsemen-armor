@@ -7,7 +7,8 @@ data:extend({
         energy_required = 1,
         ingredients = {
             { "express-transport-belt", 30}, 
-            { "processing-unit", 5}, 
+            { "neo-steel-plate", 5}, 
+            { "beryllium-gear", 5}
         },
         result = "2fast-2furious",
         requester_paste_multiplier = 15
