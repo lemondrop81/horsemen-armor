@@ -24,7 +24,7 @@ data:extend({
                 recipe = "neo-steel-gear",
               },
 		},
-		prerequisites = {"magma-processing"},
+		prerequisites = {"magma processing"},
 		unit = {
 			count = 100,
 			ingredients = {

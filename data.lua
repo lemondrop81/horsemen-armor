@@ -42,6 +42,7 @@ require("prototypes.technology.substation")
 require("prototypes.technology.robots")
 require("prototypes.technology.fluid")
 require("prototypes.technology.beryllium")
+require("prototypes.technology.neo_steel")
 
 require("prototypes.entity.vehicle")
 require("prototypes.entity.drill")

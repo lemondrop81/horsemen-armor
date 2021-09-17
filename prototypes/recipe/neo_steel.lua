@@ -3,7 +3,7 @@ data:extend(
         --Recipe
         {
             type = "recipe",
-            enabled = true,
+            enabled = false,
             name = "neo-steel-plate",
             category = "smelting",
             energy_required = 15,
@@ -13,7 +13,7 @@ data:extend(
         --Recipe
         {
             type = "recipe",
-            enabled = true,
+            enabled = false,
             name = "neo-steel-gear",
             ingredients = {{"neo-steel-plate", 1}},
             result_count = 4,
