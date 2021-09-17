@@ -9,7 +9,7 @@ data:extend({
          { "bubonic-plague", 1}, 
          {"power-armor-mk2", 10}, 
          { "beryllium-plate", 5}, 
-         { "beryllium-gear", 5}, 
+         { "neo-steel-plate", 5}, 
       },
       result = "pestilence-armor",
       requester_paste_multiplier = 1
@@ -25,7 +25,7 @@ data:extend({
             { "war-machine", 1}, 
             { "power-armor-mk2", 10}, 
             { "beryllium-plate", 5}, 
-            { "beryllium-gear", 5}, 
+            { "neo-steel-plate", 5}, 
          },
          result = "war-armor",
          requester_paste_multiplier = 1
@@ -41,7 +41,7 @@ data:extend({
             { "earth-scorcher", 1}, 
             { "power-armor-mk2",10}, 
             { "beryllium-plate", 5}, 
-            { "beryllium-gear", 5}, 
+            { "neo-steel-plate", 5}, 
          },
          result = "famine-armor",
          requester_paste_multiplier = 1

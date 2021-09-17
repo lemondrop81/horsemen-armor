@@ -10,6 +10,7 @@ data:extend({
             { "substation", 15}, 
             { "nuclear-reactor", 1}, 
             { "beryllium-wire", 20}, 
+            { "neo-steel-plate", 10}, 
             
         },
         result = "zeus_thunder",
