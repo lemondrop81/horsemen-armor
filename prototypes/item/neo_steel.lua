@@ -15,7 +15,7 @@ neoSteelPlate.stack_size = 100
 data:extend{neoSteelPlate}
 
 -- Create the neo-steel gear item
-local neoSteelGear = util.table.deepcopy(data.raw["item"]["iron-gear"])
+local neoSteelGear = util.table.deepcopy(data.raw["item"]["iron-gear-wheel"])
 neoSteelGear.name = "neo-steel-gear"
 neoSteelGear.type = "item"
 neoSteelGear.order = "f"
