@@ -28,7 +28,7 @@ quickAccumulator.drawing_box = {{-1, -1.5}, {1, 1}}
 quickAccumulator.energy_source =
 {
     type = "electric",
-    buffer_capacity = "10MJ",
+    buffer_capacity = "100MJ",
     usage_priority = "tertiary",
     input_flow_limit = "300MW",
     output_flow_limit = "300MW"
@@ -97,8 +97,8 @@ largeAccumulator.energy_source =
     type = "electric",
     buffer_capacity = "10PJ",
     usage_priority = "tertiary",
-    input_flow_limit = "300kW",
-    output_flow_limit = "300kW"
+    input_flow_limit = "1MW",
+    output_flow_limit = "1MW"
 }
 
 largeAccumulator.charge_cooldown = 30
