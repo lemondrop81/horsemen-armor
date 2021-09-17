@@ -29,6 +29,7 @@ require("prototypes.recipe.turret")
 require("prototypes.recipe.fluid")
 require("prototypes.recipe.robots")
 require("prototypes.recipe.beryllium")
+require("prototypes.recipe.neo_steel")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
