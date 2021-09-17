@@ -51,6 +51,7 @@ require("prototypes.entity.turret")
 require("prototypes.entity.robots")
 
 require("prototypes.ores.beryllium")
+require("prototypes.ores.neo_steel")
 
 require("prototypes.damages.damage-initilization")
 

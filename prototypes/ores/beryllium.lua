@@ -43,4 +43,3 @@ local function is_sprite_def(array)
   end
   
 recursive_tint(beryllium, {r = 3, g = 252, b = 248})
-
