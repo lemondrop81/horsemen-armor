@@ -12,6 +12,7 @@ require("prototypes.item.tiles")
 require("prototypes.item.fluid")
 require("prototypes.item.robots")
 require("prototypes.item.beryllium")
+require("prototypes.item.neo_steel")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -56,3 +57,4 @@ require("prototypes.ores.neo_steel")
 require("prototypes.damages.damage-initilization")
 
 bobmods.lib.resource.generate(beryllium)
+bobmods.lib.resource.generate(neoSteel)

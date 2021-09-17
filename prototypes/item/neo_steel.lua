@@ -13,3 +13,19 @@ neoSteelPlate.icons = {
 neoSteelPlate.stack_size = 100
 
 data:extend{neoSteelPlate}
+
+-- Create the neo-steel gear item
+local neoSteelGear = util.table.deepcopy(data.raw["item"]["iron-gear"])
+neoSteelGear.name = "neo-steel-gear"
+neoSteelGear.type = "item"
+neoSteelGear.order = "f"
+neoSteelGear.icons = {
+  {
+    icon = neoSteelGear.icon,
+    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
+  },
+}
+
+neoSteelGear.stack_size = 100
+
+data:extend{neoSteelGear}
