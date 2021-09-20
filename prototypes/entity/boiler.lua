@@ -1,4 +1,4 @@
--- Create the entity for a marine boiler 
+-- Create the entity for a scotch marine boiler 
 local marineBoiler = util.table.deepcopy(data.raw["boiler"]["boiler"])
 marineBoiler.name = "Scotch Marine Boiler"
 marineBoiler.icons = {

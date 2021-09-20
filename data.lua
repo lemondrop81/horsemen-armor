@@ -33,6 +33,7 @@ require("prototypes.recipe.robots")
 require("prototypes.recipe.beryllium")
 require("prototypes.recipe.neo_steel")
 require("prototypes.recipe.accumulator")
+require("prototypes.recipe.boiler")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
