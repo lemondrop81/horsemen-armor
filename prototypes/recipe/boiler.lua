@@ -39,5 +39,17 @@ data:extend({
         result = "Watertube Boiler",
         requester_paste_multiplier = 15
     },
+    {
+        --The recipe to craft the watertube boiler
+        type = "recipe",
+        name = "Power Boiler",
+        enabled = true,
+        energy_required = 1,
+        ingredients = {
+            { "iron-plate", 10}, 
+        },
+        result = "Power Boiler",
+        requester_paste_multiplier = 15
+    },
 }
 )

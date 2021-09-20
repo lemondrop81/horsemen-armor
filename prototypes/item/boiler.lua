@@ -6,7 +6,7 @@ data:extend({
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "Scotch Marine Boiler",
-        stack_size = 50
+        stack_size = 10
     },
     {
         type = "item",
@@ -15,7 +15,7 @@ data:extend({
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "Firetube Boiler",
-        stack_size = 50
+        stack_size = 10
     },
     {
         type = "item",
@@ -24,7 +24,16 @@ data:extend({
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "Watertube Boiler",
-        stack_size = 50
+        stack_size = 10
+    },
+    {
+        type = "item",
+        name = "Power Boiler",
+        icon = "__base__/graphics/icons/boiler.png",
+        icon_size = 64, icon_mipmaps = 4,
+        subgroup = "energy",
+        place_result = "Power Boiler",
+        stack_size = 5
     },
 }
 )

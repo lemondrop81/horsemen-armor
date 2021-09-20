@@ -11,6 +11,7 @@ marineBoiler.icons = {
 marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Marine Boiler"}
 marineBoiler.max_health = 250
 marineBoiler.target_temperature = 200
+marineBoiler.next_upgrade = "Firetube Boiler"
 marineBoiler.energy_consumption = "3.0MW"
 marineBoiler.energy_source =
 {
@@ -50,6 +51,7 @@ firetubeBoiler.icons = {
 firetubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Firetube Boiler"}
 firetubeBoiler.max_health = 250
 firetubeBoiler.target_temperature = 230
+firetubeBoiler.next_upgrade = "Watertube Boiler"
 firetubeBoiler.energy_consumption = "3.8MW"
 firetubeBoiler.energy_source =
 {
@@ -89,6 +91,7 @@ watertubeBoiler.icons = {
 watertubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Watertube Boiler"}
 watertubeBoiler.max_health = 250
 watertubeBoiler.target_temperature = 250
+watertubeBoiler.next_upgrade = "Power Boiler"
 watertubeBoiler.energy_consumption = "4.2MW"
 watertubeBoiler.energy_source =
 {
@@ -114,3 +117,42 @@ watertubeBoiler.energy_source =
 
 
 data:extend{watertubeBoiler}
+
+-- Create the entity for a power boiler 
+local powerBoiler = util.table.deepcopy(data.raw["boiler"]["boiler"])
+powerBoiler.name = "Power Boiler"
+powerBoiler.icons = {
+    {
+        icon = powerBoiler.icon,
+        tint = {r=1.0,g=0.6,b=0.7,a=0.6}
+    },
+}
+
+powerBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Power Boiler"}
+powerBoiler.max_health = 2500
+powerBoiler.target_temperature = 600
+powerBoiler.energy_consumption = "10MW"
+powerBoiler.energy_source =
+{
+  type = "burner",
+  fuel_category = "chemical",
+  effectivity = .8,
+  fuel_inventory_size = 2,
+  emissions = 1 / 16.5,
+  smoke =
+  {
+    {
+      name = "smoke",
+      north_position = util.by_pixel(-38, -47.5),
+      south_position = util.by_pixel(38.5, -32),
+      east_position = util.by_pixel(20, -70),
+      west_position = util.by_pixel(-19, -8.5),
+      frequency = 15,
+      starting_vertical_speed = 0.0,
+      starting_frame_deviation = 60
+    }
+  }
+}
+
+
+data:extend{powerBoiler}
