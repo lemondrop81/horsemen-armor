@@ -12,6 +12,7 @@ marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Mari
 marineBoiler.max_health = 250
 marineBoiler.target_temperature = 200
 marineBoiler.next_upgrade = "Firetube Boiler"
+marineBoiler.fast_replaceable_group = "boiler"
 marineBoiler.energy_consumption = "3.0MW"
 marineBoiler.energy_source =
 {
@@ -52,6 +53,7 @@ firetubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Firetube 
 firetubeBoiler.max_health = 250
 firetubeBoiler.target_temperature = 230
 firetubeBoiler.next_upgrade = "Watertube Boiler"
+firetubeBoiler.fast_replaceable_group = "boiler"
 firetubeBoiler.energy_consumption = "3.8MW"
 firetubeBoiler.energy_source =
 {
@@ -92,6 +94,7 @@ watertubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Watertub
 watertubeBoiler.max_health = 250
 watertubeBoiler.target_temperature = 250
 watertubeBoiler.next_upgrade = "Power Boiler"
+watertubeBoiler.fast_replaceable_group = "boiler"
 watertubeBoiler.energy_consumption = "4.2MW"
 watertubeBoiler.energy_source =
 {
@@ -131,7 +134,8 @@ powerBoiler.icons = {
 powerBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Power Boiler"}
 powerBoiler.max_health = 2500
 powerBoiler.target_temperature = 600
-powerBoiler.energy_consumption = "10MW"
+powerBoiler.fast_replaceable_group = "boiler"
+powerBoiler.energy_consumption = "20MW"
 powerBoiler.energy_source =
 {
   type = "burner",

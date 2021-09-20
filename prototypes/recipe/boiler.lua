@@ -43,10 +43,11 @@ data:extend({
         --The recipe to craft the watertube boiler
         type = "recipe",
         name = "Power Boiler",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 10}, 
+            { "hephaestus_forge", 1}, 
+            { "beryllium-plate", 5}, 
         },
         result = "Power Boiler",
         requester_paste_multiplier = 15

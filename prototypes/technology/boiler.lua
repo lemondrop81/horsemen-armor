@@ -110,3 +110,41 @@ data:extend({
 	}
 }
 )
+
+-- Research the power boiler 
+local powerBoiler = table.deepcopy(data.raw["boiler"]["boiler"])
+
+powerBoiler.icons = {
+  {
+    icon = powerBoiler.icon,
+    tint = {r=0.5,g=0.3,b=0.4,a=0.3}
+  },
+}
+
+data:extend({
+	{
+		type = "technology",
+		name = "Power Boilers",
+		icon_size = 64,
+		icon = powerBoiler.icon,
+		effects =  {
+			{
+				type = "unlock-recipe",
+				recipe = "Power Boiler"
+			},
+
+		},
+		prerequisites = {"beryllium-processing"},
+		unit = {
+			count = 10,
+			ingredients = {
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
+			},
+			time = 30
+		},
+		order = "g-c-b"
+	}
+}
+)
