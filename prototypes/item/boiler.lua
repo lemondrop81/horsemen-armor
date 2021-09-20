@@ -10,7 +10,7 @@ data:extend({
     },
     {
         type = "item",
-        name = "FireTube Boiler",
+        name = "Firetube Boiler",
         icon = "__base__/graphics/icons/boiler.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",

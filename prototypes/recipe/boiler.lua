@@ -22,7 +22,7 @@ data:extend({
             { "steel-pipe", 1}, 
             { "steel-furnace", 1}, 
         },
-        result = "FireTube Boiler",
+        result = "Firetube Boiler",
         requester_paste_multiplier = 15
     },
 }

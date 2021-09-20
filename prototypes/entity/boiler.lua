@@ -12,12 +12,12 @@ marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Mari
 marineBoiler.max_health = 250
 marineBoiler.target_temperature = 200
 marineBoiler.energy_consumption = "3.0MW"
-marineBoilerenergy_source =
+marineBoiler.energy_source =
 {
   type = "burner",
   fuel_category = "chemical",
   effectivity = 0.3,
-  fuel_inventory_size = 7,
+  fuel_inventory_size = 2,
   emissions = 0.1 / 6.5,
   smoke =
   {
@@ -51,12 +51,12 @@ firetubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Firetube 
 firetubeBoiler.max_health = 250
 firetubeBoiler.target_temperature = 230
 firetubeBoiler.energy_consumption = "3.8MW"
-firetubeBoiler =
+firetubeBoiler.energy_source =
 {
   type = "burner",
   fuel_category = "chemical",
   effectivity = 0.5,
-  fuel_inventory_size = 7,
+  fuel_inventory_size = 2,
   emissions = 0.1 / 6.5,
   smoke =
   {
