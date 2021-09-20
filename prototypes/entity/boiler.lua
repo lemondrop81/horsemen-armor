@@ -1,6 +1,6 @@
 -- Create the entity for a marine boiler 
 local marineBoiler = util.table.deepcopy(data.raw["boiler"]["boiler"])
-marineBoiler.name = "scotch marine boiler"
+marineBoiler.name = "Scotch Marine Boiler"
 marineBoiler.icons = {
     {
         icon = marineBoiler.icon,
@@ -8,7 +8,7 @@ marineBoiler.icons = {
     },
 }
 
-marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "boiler-2"}
+marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Marine Boiler"}
 marineBoiler.max_health = 250
 marineBoiler.target_temperature = 315
 marineBoiler.energy_consumption = "3.6MW"
