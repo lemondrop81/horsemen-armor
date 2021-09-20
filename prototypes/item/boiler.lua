@@ -17,5 +17,14 @@ data:extend({
         place_result = "Firetube Boiler",
         stack_size = 50
     },
+    {
+        type = "item",
+        name = "Watertube Boiler",
+        icon = "__base__/graphics/icons/boiler.png",
+        icon_size = 64, icon_mipmaps = 4,
+        subgroup = "energy",
+        place_result = "Watertube Boiler",
+        stack_size = 50
+    },
 }
 )

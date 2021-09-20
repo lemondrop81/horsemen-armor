@@ -25,5 +25,18 @@ data:extend({
         result = "Firetube Boiler",
         requester_paste_multiplier = 15
     },
+    {
+        --The recipe to craft the watertube boiler
+        type = "recipe",
+        name = "Watertube Boiler",
+        enabled = false,
+        energy_required = 1,
+        ingredients = {
+            { "steel-pipe", 10}, 
+            { "steel-furnace", 3}, 
+        },
+        result = "Watertube Boiler",
+        requester_paste_multiplier = 15
+    },
 }
 )
