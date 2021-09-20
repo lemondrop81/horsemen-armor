@@ -3,7 +3,7 @@ data:extend({
         --The recipe to craft the scotch marine boiler
         type = "recipe",
         name = "Scotch Marine Boiler",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
             { "steel-pipe", 1}, 

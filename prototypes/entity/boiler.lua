@@ -10,8 +10,8 @@ marineBoiler.icons = {
 
 marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Marine Boiler"}
 marineBoiler.max_health = 250
-marineBoiler.target_temperature = 315
-marineBoiler.energy_consumption = "3.6MW"
+marineBoiler.target_temperature = 200
+marineBoiler.energy_consumption = "3.0MW"
 marineBoilerenergy_source =
 {
   type = "burner",
