@@ -56,6 +56,7 @@ require("prototypes.entity.assembling_machine")
 require("prototypes.entity.turret")
 require("prototypes.entity.robots")
 require("prototypes.entity.accumulator")
+require("prototypes.entity.boiler")
 
 require("prototypes.ores.beryllium")
 require("prototypes.ores.neo_steel")
