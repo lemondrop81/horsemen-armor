@@ -6,7 +6,8 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "steel-plate", 1}, 
+            { "steel-furnace", 1}, 
         },
         result = "Scotch Marine Boiler",
         requester_paste_multiplier = 15
