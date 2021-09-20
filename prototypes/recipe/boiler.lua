@@ -16,11 +16,11 @@ data:extend({
         --The recipe to craft the firetube boiler
         type = "recipe",
         name = "Firetube Boiler",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
-            { "steel-pipe", 1}, 
-            { "steel-furnace", 1}, 
+            { "steel-pipe", 10}, 
+            { "steel-furnace", 3}, 
         },
         result = "Firetube Boiler",
         requester_paste_multiplier = 15
