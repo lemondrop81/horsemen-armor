@@ -12,7 +12,7 @@ data:extend({
         requester_paste_multiplier = 15
     },
     {
-        --The recipe to craft the quilargeck accumulator
+        --The recipe to craft the large accumulator
         type = "recipe",
         name = "large accumulator",
         enabled = false,
@@ -21,6 +21,18 @@ data:extend({
             { "iron-plate", 1}, 
         },
         result = "large accumulator",
+        requester_paste_multiplier = 15
+    },
+    {
+        --The recipe to craft the hyper accumulator
+        type = "recipe",
+        name = "hyper accumulator",
+        enabled = false,
+        energy_required = 1,
+        ingredients = {
+            { "iron-plate", 1}, 
+        },
+        result = "hyper accumulator",
         requester_paste_multiplier = 15
     },
 }

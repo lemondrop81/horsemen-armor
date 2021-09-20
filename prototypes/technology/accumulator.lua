@@ -23,6 +23,10 @@ data:extend({
 				type = "unlock-recipe",
 				recipe = "quick accumulator"
 			},
+			{
+				type = "unlock-recipe",
+				recipe = "hyper accumulator"
+			},
 		},
 		prerequisites = {"neoSteel-processing", "magma processing"},
 		unit = {
