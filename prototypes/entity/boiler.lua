@@ -10,7 +10,7 @@ marineBoiler.icons = {
 
 marineBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Scotch Marine Boiler"}
 marineBoiler.max_health = 250
-marineBoiler.target_temperature = 200
+marineBoiler.target_temperature = 220
 marineBoiler.next_upgrade = "Firetube Boiler"
 marineBoiler.fast_replaceable_group = "boiler"
 marineBoiler.energy_consumption = "3.0MW"
@@ -51,7 +51,7 @@ firetubeBoiler.icons = {
 
 firetubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Firetube Boiler"}
 firetubeBoiler.max_health = 250
-firetubeBoiler.target_temperature = 230
+firetubeBoiler.target_temperature = 290
 firetubeBoiler.next_upgrade = "Watertube Boiler"
 firetubeBoiler.fast_replaceable_group = "boiler"
 firetubeBoiler.energy_consumption = "3.8MW"
@@ -92,7 +92,7 @@ watertubeBoiler.icons = {
 
 watertubeBoiler.minable = {hardness = 0.2, mining_time = 0.5, result = "Watertube Boiler"}
 watertubeBoiler.max_health = 250
-watertubeBoiler.target_temperature = 250
+watertubeBoiler.target_temperature = 350
 watertubeBoiler.next_upgrade = "Power Boiler"
 watertubeBoiler.fast_replaceable_group = "boiler"
 watertubeBoiler.energy_consumption = "4.2MW"

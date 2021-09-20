@@ -15,7 +15,7 @@ require("prototypes.item.beryllium")
 require("prototypes.item.neo_steel")
 require("prototypes.item.accumulator")
 require("prototypes.item.boiler")
-require("prototypes.recipe.generator")
+require("prototypes.item.generator")
 
 require("prototypes.equipment.equipment-grid")
 
