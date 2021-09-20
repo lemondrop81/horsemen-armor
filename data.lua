@@ -15,6 +15,7 @@ require("prototypes.item.beryllium")
 require("prototypes.item.neo_steel")
 require("prototypes.item.accumulator")
 require("prototypes.item.boiler")
+require("prototypes.recipe.generator")
 
 require("prototypes.equipment.equipment-grid")
 
@@ -34,6 +35,7 @@ require("prototypes.recipe.beryllium")
 require("prototypes.recipe.neo_steel")
 require("prototypes.recipe.accumulator")
 require("prototypes.recipe.boiler")
+require("prototypes.recipe.generator")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
@@ -60,6 +62,7 @@ require("prototypes.entity.turret")
 require("prototypes.entity.robots")
 require("prototypes.entity.accumulator")
 require("prototypes.entity.boiler")
+require("prototypes.entity.generator")
 
 require("prototypes.ores.beryllium")
 require("prototypes.ores.neo_steel")
