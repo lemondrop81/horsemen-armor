@@ -1,4 +1,4 @@
--- Create the entity for a super turbine
+-- Create the entity for a toxicMine
 local toxicMine = util.table.deepcopy(data.raw["land-mine"]["land-mine"])
 toxicMine.name = "toxicMine"
 toxicMine.trigger_radius = 10
@@ -29,7 +29,7 @@ toxicMine.action =
             action =
             {
               type = "area",
-              radius = 6,
+              radius = 20,
               collision_mask = { "player-layer" },
               action_delivery =
               {
@@ -37,7 +37,7 @@ toxicMine.action =
                 target_effects = 
                 {
                   type = "damage",
-                  damage = { amount = 300, type = "toxic"}
+                  damage = { amount = 300, type = "toxicity"}
                 }
               }
             },
