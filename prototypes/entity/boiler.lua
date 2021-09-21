@@ -4,7 +4,7 @@ marineBoiler.name = "Scotch Marine Boiler"
 marineBoiler.icons = {
     {
         icon = marineBoiler.icon,
-        tint = {r=0.4,g=0.4,b=0.6,a=0.6}
+        tint = {r=0,g=255,b=127}
     },
 }
 
@@ -36,6 +36,24 @@ marineBoiler.energy_source =
   }
 }
 
+local function is_sprite_def(array)
+  return array.width and array.height and (array.filename or array.stripes or array.filenames)
+end
+
+function recursive_tint(array, tint)
+for _, v in pairs(array) do
+  if type(v) == "table" then
+    if is_sprite_def(v) or v.icon then
+      v.tint = tint
+    end
+    v = recursive_tint(v, tint)
+  end
+end
+return array
+end
+
+recursive_tint(marineBoiler, {r=0,g=255,b=127})
+
 
 data:extend{marineBoiler}
 
@@ -45,7 +63,7 @@ firetubeBoiler.name = "Firetube Boiler"
 firetubeBoiler.icons = {
     {
         icon = firetubeBoiler.icon,
-        tint = {r=0.2,g=0.6,b=0.4,a=0.6}
+        tint = {r=124,g=252,b=0}
     },
 }
 
@@ -77,6 +95,23 @@ firetubeBoiler.energy_source =
   }
 }
 
+local function is_sprite_def(array)
+  return array.width and array.height and (array.filename or array.stripes or array.filenames)
+end
+
+function recursive_tint(array, tint)
+for _, v in pairs(array) do
+  if type(v) == "table" then
+    if is_sprite_def(v) or v.icon then
+      v.tint = tint
+    end
+    v = recursive_tint(v, tint)
+  end
+end
+return array
+end
+
+recursive_tint(firetubeBoiler, {r=124,g=252,b=0})
 
 data:extend{firetubeBoiler}
 
@@ -86,7 +121,7 @@ watertubeBoiler.name = "Watertube Boiler"
 watertubeBoiler.icons = {
     {
         icon = watertubeBoiler.icon,
-        tint = {r=0.7,g=0.3,b=0.1,a=0.6}
+        tint = {r=0,g=255,b=0}
     },
 }
 
@@ -118,6 +153,23 @@ watertubeBoiler.energy_source =
   }
 }
 
+local function is_sprite_def(array)
+  return array.width and array.height and (array.filename or array.stripes or array.filenames)
+end
+
+function recursive_tint(array, tint)
+for _, v in pairs(array) do
+  if type(v) == "table" then
+    if is_sprite_def(v) or v.icon then
+      v.tint = tint
+    end
+    v = recursive_tint(v, tint)
+  end
+end
+return array
+end
+
+recursive_tint(watertubeBoiler, {r=0,g=255,b=0})
 
 data:extend{watertubeBoiler}
 
@@ -127,7 +179,7 @@ powerBoiler.name = "Power Boiler"
 powerBoiler.icons = {
     {
         icon = powerBoiler.icon,
-        tint = {r=1.0,g=0.6,b=0.7,a=0.6}
+        tint = {r=32,g=178,b=170}
     },
 }
 
@@ -158,5 +210,22 @@ powerBoiler.energy_source =
   }
 }
 
+local function is_sprite_def(array)
+  return array.width and array.height and (array.filename or array.stripes or array.filenames)
+end
+
+function recursive_tint(array, tint)
+for _, v in pairs(array) do
+  if type(v) == "table" then
+    if is_sprite_def(v) or v.icon then
+      v.tint = tint
+    end
+    v = recursive_tint(v, tint)
+  end
+end
+return array
+end
+
+recursive_tint(powerBoiler, {r=32,g=178,b=170})
 
 data:extend{powerBoiler}
