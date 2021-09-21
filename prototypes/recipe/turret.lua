@@ -2,7 +2,7 @@ data:extend({
     {
         --The recipe to craft gattling gun
         type = "recipe",
-        name = "gattling_gun-craft",
+        name = "gattling_gun",
         enabled = false,
         energy_required = 1,
         ingredients = {
@@ -16,7 +16,7 @@ data:extend({
     {
         --The recipe to craft flame gun
         type = "recipe",
-        name = "hephaestus_gun-craft",
+        name = "hephaestus_gun",
         enabled = false,
         energy_required = 1,
         ingredients = {

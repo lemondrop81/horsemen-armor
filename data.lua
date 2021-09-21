@@ -55,6 +55,7 @@ require("prototypes.technology.accumulator")
 require("prototypes.technology.boiler")
 require("prototypes.technology.generator")
 require("prototypes.technology.landmine")
+require("prototypes.technology.turret")
 
 require("prototypes.entity.vehicle")
 require("prototypes.entity.drill")
