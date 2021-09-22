@@ -17,8 +17,10 @@ require("prototypes.item.accumulator")
 require("prototypes.item.boiler")
 require("prototypes.item.generator")
 require("prototypes.item.landmine")
+require("prototypes.item.active_defence")
 
 require("prototypes.equipment.equipment-grid")
+require("prototypes.equipment.active_defence")
 
 require("prototypes.recipe.horsemen-armor")
 require("prototypes.recipe.fuel")
@@ -38,6 +40,7 @@ require("prototypes.recipe.accumulator")
 require("prototypes.recipe.boiler")
 require("prototypes.recipe.generator")
 require("prototypes.recipe.landmine")
+require("prototypes.recipe.active_defence")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
