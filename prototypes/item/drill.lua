@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "hephaestus_drill",
-        icon = "__horsemen-armor__/graphics/icons/hephaestus_drill.png",
+        icon = "__base__/graphics/icons/electric-mining-drill.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "extraction-machine",
         place_result = "hephaestus_drill",

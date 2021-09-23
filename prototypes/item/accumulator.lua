@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "quick accumulator",
-        icon = "__horsemen-armor__/graphics/icons/quick_accumulator.png",
+        icon = "__base__/graphics/icons/accumulator.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "quick accumulator",
@@ -11,7 +11,7 @@ data:extend({
     {
         type = "item",
         name = "large accumulator",
-        icon = "__horsemen-armor__/graphics/icons/large_accumulator.png",
+        icon = "__base__/graphics/icons/accumulator.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "large accumulator",
@@ -20,7 +20,7 @@ data:extend({
     {
         type = "item",
         name = "hyper accumulator",
-        icon = "__horsemen-armor__/graphics/icons/large_accumulator.png",
+        icon = "__base__/graphics/icons/accumulator.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy",
         place_result = "hyper accumulator",

@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "hephaestus_forge",
-        icon = "__horsemen-armor__/graphics/icons/furnace.png",
+        icon = "__base__/graphics/icons/electric-furnace.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "smelting-machine",
         place_result = "hephaestus_forge",

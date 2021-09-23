@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "2fast-2furious",
-        icon = "__horsemen-armor__/graphics/icons/furnace.png",
+        icon = "__base__/graphics/icons/express-transport-belt.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "belt",
         place_result = "2fast-2furious",
@@ -11,7 +11,7 @@ data:extend({
     {
         type = "item",
         name = "2fast-2furious-underground",
-        icon = "__horsemen-armor__/graphics/icons/death-armor.png",
+        icon = "__base__/graphics/icons/express-underground-belt.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "belt",
         place_result = "2fast-2furious-underground",
