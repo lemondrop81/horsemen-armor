@@ -4,8 +4,8 @@ mithril = {
     map_color = {r = 150, g = 150, b = 150},
     hardness = 1.4,
     mining_time = 2,
-    --required_fluid = "steam",
-    --fluid_amount = 20,
+    required_fluid = "steam",
+    fluid_amount = 20,
     enabled = true,
     icons = {
       icon = "__horsemen-armor__/graphics/icons/mithril.png",
