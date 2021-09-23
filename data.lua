@@ -43,6 +43,7 @@ require("prototypes.recipe.boiler")
 require("prototypes.recipe.generator")
 require("prototypes.recipe.landmine")
 require("prototypes.recipe.active_defence")
+require("prototypes.recipe.default")
 
 require("prototypes.technology.horsemen-armor")
 require("prototypes.technology.fuel")
