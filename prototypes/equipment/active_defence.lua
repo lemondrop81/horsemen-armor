@@ -43,8 +43,8 @@ data:extend({
       usage_priority = "secondary-input",
     },
     shape = {
-      width = 1,
-      height = 1,
+      width = 2,
+      height = 2,
       type = "full",
     },
     sprite = {
