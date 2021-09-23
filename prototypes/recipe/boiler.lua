@@ -19,8 +19,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "steel-pipe", 10}, 
-            { "steel-furnace", 3}, 
+            { "mithril-plate", 10}, 
+            { "Scotch Marine Boiler", 3}, 
         },
         result = "Firetube Boiler",
         requester_paste_multiplier = 15
@@ -34,7 +34,7 @@ data:extend({
         ingredients = {
             { "concrete", 10}, 
             { "heat-pipe", 10}, 
-            { "electic-furnace", 3}, 
+            { "Firetube Boiler", 3}, 
         },
         result = "Watertube Boiler",
         requester_paste_multiplier = 15
@@ -48,6 +48,7 @@ data:extend({
         ingredients = {
             { "hephaestus_forge", 1}, 
             { "beryllium-plate", 5}, 
+            { "Watertube Boiler", 5}, 
         },
         result = "Power Boiler",
         requester_paste_multiplier = 15
