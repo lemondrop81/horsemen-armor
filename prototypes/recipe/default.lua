@@ -26,7 +26,7 @@ data.raw.recipe["flamethrower-turret"].ingredients =
 -- Change the laser turret recipe
 data.raw.recipe["laser-turret"].ingredients =
 {
-	{"advanced-curcuits", 25},
+	{"advanced-circuits", 25},
     {"mithril-plate", 20},
     {"battery", 5},
 }
@@ -34,7 +34,7 @@ data.raw.recipe["laser-turret"].ingredients =
 -- Change the tank recipe
 data.raw.recipe["tank"].ingredients =
 {
-	{"advanced-curcuits", 25},
+	{"advanced-circuits", 25},
     {"mithril-plate", 20},
     {"engine-unit", 5},
 }
@@ -42,7 +42,7 @@ data.raw.recipe["tank"].ingredients =
 -- Change the flying robot frame recipe
 data.raw.recipe["flying-robot-frame"].ingredients =
 {
-	{"electronic-curcuits", 25},
+	{"electronic-circuits", 25},
     {"mithril-beam", 20},
     {"battery", 1},
     {"electric-engine-unit", 1},
