@@ -10,7 +10,7 @@ data:extend({
       range = 50,
       ammo_type = {
         category = "laser",
-        energy_consumption = "4J",
+        energy_consumption = "140KJ",
         action = {
           type = "direct",
           action_delivery = {
