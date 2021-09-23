@@ -35,7 +35,7 @@ data:extend({
       },
     },
     automatic = true,
-    categories = { "universal-equipment" },
+    categories = { "armor" },
     energy_source = {
       buffer_capacity = "24MJ",
       input_flow_limit = "3MW",

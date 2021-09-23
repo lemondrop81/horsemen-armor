@@ -3,7 +3,7 @@ data:extend(
         --Recipe for mithril plate
         {
             type = "recipe",
-            enabled = true,
+            enabled = false,
             name = "mithril-plate",
             category = "smelting",
             energy_required = 5,
@@ -14,7 +14,7 @@ data:extend(
         --Recipe for mithril beam
         {
             type = "recipe",
-            enabled = true,
+            enabled = false,
             name = "mithril-beam",
             category = "smelting",
             energy_required = 5,
