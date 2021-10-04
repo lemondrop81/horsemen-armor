@@ -43,26 +43,26 @@ recursive_tint(zeus_thunderbolt, {r=0.5,g=0.5,b=0.5,a=0.3})
 data:extend{zeus_thunderbolt}
 
 -- Create the entity for a new longer distanced electric pole
-local highboltage_pole = util.table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
-highboltage_pole.name = "highvoltage_pole"
-highboltage_pole.place_result = "highvoltage_pole"
-highboltage_pole.icons = {
+local highvoltage_pole = util.table.deepcopy(data.raw["electric-pole"]["big-electric-pole"])
+highvoltage_pole.name = "230kV_pole"
+highvoltage_pole.place_result = "230kV_pole"
+highvoltage_pole.icons = {
     {
-        icon = highboltage_pole.icon,
-        tint = {r=0.6,g=0.6,b=0.2,a=0.3}
+        icon = highvoltage_pole.icon,
+        tint = {r=0.6,g=0.6,b=0.2,a=0.6}
     },
 }
-highboltage_pole.minable.results = {
+highvoltage_pole.minable.results = {
     {
         type = "item",
-        name = "highvoltage_pole",
+        name = "230kV_pole",
         amount_min = 1,
         amount_max = 1
     }
 }
 
-highboltage_pole.supply_area_distance = 30
-highboltage_pole.maximum_wire_distance = 10
+highvoltage_pole.supply_area_distance = 5
+highvoltage_pole.maximum_wire_distance = 40
 
 
 local function is_sprite_def(array)
@@ -81,7 +81,7 @@ function recursive_tint(array, tint)
   return array
 end
 
-recursive_tint(highboltage_pole, {r=0.6,g=0.6,b=0.2,a=0.3})
+recursive_tint(highvoltage_pole, {r=0.6,g=0.6,b=0.2,a=0.6})
 
 
-data:extend{highboltage_pole}
+data:extend{highvoltage_pole}

@@ -11,11 +11,11 @@ data:extend({
 
     {
         type = "item",
-        name = "highvoltage_pole",
+        name = "230kV_pole",
         icon = "__base__/graphics/icons/substation.png",
         icon_size = 64, icon_mipmaps = 4,
         subgroup = "energy-pipe-distribution",
-        place_result = "highvoltage_pole",
+        place_result = "230kV_pole",
         stack_size = 50
     },
 }
