@@ -16,5 +16,17 @@ data:extend({
         result = "zeus_thunder",
         requester_paste_multiplier = 15
     },
+    {
+        --The recipe to craft zeus's substation
+        type = "recipe",
+        name = "eletric pole 2",
+        enabled = true,
+        energy_required = 1,
+        ingredients = {
+            { "iron-plate", 1},             
+        },
+        result = "eletric pole 2",
+        requester_paste_multiplier = 15
+    },
 }
 )
