@@ -51,7 +51,7 @@ highvoltage_pole.icons = {
 data:extend({
 	{
 		type = "technology",
-		name = "230kV_pole",
+		name = "electric-energy-distribution-3",
 		icon_size = 64,
 		icon = highvoltage_pole.icon,
 		effects =  {
