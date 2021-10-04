@@ -19,13 +19,13 @@ data:extend({
     {
         --The recipe to craft zeus's substation
         type = "recipe",
-        name = "eletric pole 2",
+        name = "highvoltage_pole",
         enabled = true,
         energy_required = 1,
         ingredients = {
             { "iron-plate", 1},             
         },
-        result = "eletric pole 2",
+        result = "highvoltage_pole",
         requester_paste_multiplier = 15
     },
 }
