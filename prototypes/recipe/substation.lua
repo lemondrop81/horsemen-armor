@@ -38,9 +38,9 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "mithril-beam", 1}, 
-            {"low-density-structure", 1} 
-            { "230kV_pole", 1},            
+            { "mirthril-beam", 1},
+            { "low-density-structure", 1},       
+            { "230kV_pole", 1},      
         },
         result = "500kV_pole",
         requester_paste_multiplier = 15

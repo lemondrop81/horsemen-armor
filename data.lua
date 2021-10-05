@@ -19,6 +19,7 @@ require("prototypes.item.boiler")
 require("prototypes.item.generator")
 require("prototypes.item.landmine")
 require("prototypes.item.active_defence")
+require("prototypes.item.default")
 
 require("prototypes.equipment.equipment-grid")
 require("prototypes.equipment.active_defence")
