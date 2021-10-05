@@ -17,26 +17,29 @@ data:extend({
         requester_paste_multiplier = 15
     },
     {
-        --The recipe to craft zeus's substation
+        --The recipe to craft 230kV pole
         type = "recipe",
         name = "230kV_pole",
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1},             
+            { "mirthril-plate", 1},
+            { "advanced-circuit", 1},       
+            { "big-electric-pole", 1},      
         },
         result = "230kV_pole",
         requester_paste_multiplier = 15
     },
 
     {
-        --The recipe to craft zeus's substation
+        --The recipe to craft 500kV pole
         type = "recipe",
         name = "500kV_pole",
-        enabled = true,
+        enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1},             
+            { "mithril-beam", 1},  
+            { "230kV_pole", 1},            
         },
         result = "500kV_pole",
         requester_paste_multiplier = 15

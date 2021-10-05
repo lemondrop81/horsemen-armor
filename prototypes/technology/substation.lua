@@ -39,7 +39,7 @@ data:extend({
 )
 
 -- Research the 230kV_pole
-local highvoltage_pole = table.deepcopy(data.raw["electric-pole"]["substation"]) -- copy the table that defines the heavy armor item into the fireArmor variable
+local highvoltage_pole = table.deepcopy(data.raw["electric-pole"]["big-electric-pole"]) -- copy the table that defines the heavy armor item into the fireArmor variable
 
 highvoltage_pole.icons = {
   {
@@ -61,6 +61,43 @@ data:extend({
 			},
 		},
 		prerequisites = {"mithril-processing", "electric-energy-distribution-2"},
+		unit = {
+			count = 100,
+			ingredients = {
+				{"automation-science-pack", 1},
+				{"logistic-science-pack", 1},
+				{"chemical-science-pack", 1},
+			},
+			time = 30
+		},
+		order = "g-c-b"
+	}
+}
+)
+
+-- Research the 500kV_pole
+local veryHighVoltage_pole = table.deepcopy(data.raw["electric-pole"]["big-electric-pole"]) -- copy the table that defines the big electric pole in the high_voltage variable
+
+veryHighVoltage_pole.icons = {
+  {
+    icon = veryHighVoltage_pole.icon,
+    tint = {r=0.9,g=0.7,b=0.4,a=0.6}
+  },
+}
+
+data:extend({
+	{
+		type = "technology",
+		name = "electric-energy-distribution-4",
+		icon_size = 64,
+		icon = veryHighVoltage_pole.icon,
+		effects =  {
+			{
+				type = "unlock-recipe",
+				recipe = "500kV_pole"
+			},
+		},
+		prerequisites = {"electric-energy-distribution-3"},
 		unit = {
 			count = 100,
 			ingredients = {
