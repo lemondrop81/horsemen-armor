@@ -28,5 +28,18 @@ data:extend({
         result = "230kV_pole",
         requester_paste_multiplier = 15
     },
+
+    {
+        --The recipe to craft zeus's substation
+        type = "recipe",
+        name = "500kV_pole",
+        enabled = true,
+        energy_required = 1,
+        ingredients = {
+            { "iron-plate", 1},             
+        },
+        result = "500kV_pole",
+        requester_paste_multiplier = 15
+    },
 }
 )
