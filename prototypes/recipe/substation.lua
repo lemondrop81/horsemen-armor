@@ -38,7 +38,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "mithril-beam", 1},  
+            { "mithril-beam", 1}, 
+            {"low-density-structure", 1} 
             { "230kV_pole", 1},            
         },
         result = "500kV_pole",

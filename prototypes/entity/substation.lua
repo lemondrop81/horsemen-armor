@@ -17,6 +17,8 @@ zeus_thunderbolt.minable.results = {
     }
 }
 
+zeus_thunderbolt.fast_replaceable_group = "electric-pole"
+
 zeus_thunderbolt.supply_area_distance = 64
 zeus_thunderbolt.maximum_wire_distance = 64
 
@@ -61,6 +63,9 @@ highvoltage_pole.minable.results = {
     }
 }
 
+highvoltage_pole.next_upgrade = "500kV_pole"
+highvoltage_pole.fast_replaceable_group = "electric-pole"
+
 highvoltage_pole.supply_area_distance = 5
 highvoltage_pole.maximum_wire_distance = 40
 
@@ -104,6 +109,8 @@ veryHighVoltage_pole.minable.results = {
         amount_max = 1
     }
 }
+
+veryHighVoltage_pole.fast_replaceable_group = "electric-pole"
 
 veryHighVoltage_pole.supply_area_distance = 5
 veryHighVoltage_pole.maximum_wire_distance = 50

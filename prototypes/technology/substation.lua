@@ -97,7 +97,7 @@ data:extend({
 				recipe = "500kV_pole"
 			},
 		},
-		prerequisites = {"electric-energy-distribution-3"},
+		prerequisites = {"electric-energy-distribution-3", "low-density-structure"},
 		unit = {
 			count = 100,
 			ingredients = {
