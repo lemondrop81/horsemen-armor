@@ -27,3 +27,15 @@ data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group = "mini
 --Default steam turbine to upgrade to super turbine
 data.raw["generator"]["steam-turbine"].next_upgrade = "superTurbine"
 data.raw["generator"]["steam-turbine"].fast_replaceable_group = "steam-engine"
+
+--Default electric furnace to upgrade to hephaestus_forge
+data.raw["furnace"]["electric-furnace"].next_upgrade = "hephaestus_forge"
+data.raw["furnace"]["electric-furnace"].fast_replaceable_group = "furnace"
+
+--Default gun turret to upgrade to gattling_gun
+data.raw["ammo-turret"]["gun-turret"].next_upgrade = "gattling_gun"
+data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "turret"
+
+--Default fluid turret to upgrade to gattling_gun
+data.raw["fluid-turret"]["flamethrower-turret"].next_upgrade = "hephaestus_gun"
+data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group = "turret"
