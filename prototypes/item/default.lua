@@ -36,6 +36,6 @@ data.raw["furnace"]["electric-furnace"].fast_replaceable_group = "furnace"
 data.raw["ammo-turret"]["gun-turret"].next_upgrade = "gattling_gun"
 data.raw["ammo-turret"]["gun-turret"].fast_replaceable_group = "turret"
 
---Default fluid turret to upgrade to gattling_gun
+--Default fluid turret to upgrade to hephaestus_gun
 data.raw["fluid-turret"]["flamethrower-turret"].next_upgrade = "hephaestus_gun"
 data.raw["fluid-turret"]["flamethrower-turret"].fast_replaceable_group = "turret"
