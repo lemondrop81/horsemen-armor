@@ -20,7 +20,7 @@ data.raw["transport-belt"]["express-transport-belt"].fast_replaceable_group = "t
 data.raw["underground-belt"]["express-underground-belt"].next_upgrade = "2fast-2furious-underground"
 data.raw["underground-belt"]["express-underground-belt"].fast_replaceable_group = "transport-belt"
 
---Default electric drill to upgrade to hephaestus_drill
+--Default electric drill 3 to upgrade to hephaestus_drill
 data.raw["mining-drill"]["electric-mining-drill"].next_upgrade = "hephaestus_drill"
 data.raw["mining-drill"]["electric-mining-drill"].fast_replaceable_group = "mining-drill"
 
