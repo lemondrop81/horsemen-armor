@@ -39,7 +39,7 @@ magma_reactor.working_light_picture =
 magma_reactor.energy_source =
 {
   type = "burner",
-  fuel_category = "nuclear",
+  fuel_category = "magma",
   effectivity = 0.7,
   fuel_inventory_size = 1,
   emissions = 0.1 / 6.5,
