@@ -45,21 +45,3 @@ berylliumGear.icons = {
 berylliumGear.stack_size = 200
 
 data:extend{berylliumGear}
-
--- Create the beryllium magma fuel cell
-local magmaFuelCell = util.table.deepcopy(data.raw["item"]["uranium-fuel-cell"])
-magmaFuelCell.name = "magmaFuelCell"
-magmaFuelCell.type = "item"
-magmaFuelCell.fuel_value = "100GW"
-magmaFuelCell.icons = {
-  {
-    icon = magmaFuelCell.icon,
-    tint = {r=0.9,g=0.2,b=0.2,a=0.3}
-  },
-}
-magmaFuelCell.fuel_category = "magma"
-
-magmaFuelCell.stack_size = 10
-
-data:extend{magmaFuelCell}
-
