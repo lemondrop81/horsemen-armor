@@ -87,6 +87,7 @@ require("prototypes.ores.neo_steel")
 require("prototypes.ores.mithril")
 
 require("prototypes.damages.damage-initilization")
+require("prototypes.fuel-category.magma")
 
 bobmods.lib.resource.generate(beryllium)
 bobmods.lib.resource.generate(neoSteel)
