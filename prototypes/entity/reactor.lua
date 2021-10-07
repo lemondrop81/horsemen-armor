@@ -58,6 +58,24 @@ magma_reactor.energy_source =
   }
 }
 
+local function is_sprite_def(array)
+    return array.width and array.height and (array.filename or array.stripes or array.filenames)
+  end
+  
+  function recursive_tint(array, tint)
+  for _, v in pairs(array) do
+    if type(v) == "table" then
+      if is_sprite_def(v) or v.icon then
+        v.tint = tint
+      end
+      v = recursive_tint(v, tint)
+    end
+  end
+  return array
+  end
+  
+  recursive_tint(magma_reactor, {r=0.4,g=0.6,b=0.2,a=1})
+
 magma_reactor.use_fuel_glow_color = true
 magma_reactor.default_fuel_glow_color = {r=0.4,g=0.6,b=0.2,a=1} -- color used as working_light_picture tint for fuels that don't have glow color defined
 
