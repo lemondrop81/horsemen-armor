@@ -24,7 +24,7 @@ magma_reactor.heat_buffer =
   specific_heat = "9MJ"
 }
 
-magma_reactor.consumption = "72MW"
+magma_reactor.consumption = "500MW"
 
 magma_reactor.working_light_picture =
 {
@@ -40,7 +40,7 @@ magma_reactor.energy_source =
 {
   type = "burner",
   fuel_category = "nuclear",
-  effectivity = 0.3,
+  effectivity = 0.7,
   fuel_inventory_size = 1,
   emissions = 0.1 / 6.5,
   smoke =
