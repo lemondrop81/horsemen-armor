@@ -1,6 +1,6 @@
 -- Create the magma fuel cell
 local magmaFuelCell = util.table.deepcopy(data.raw["item"]["uranium-fuel-cell"])
-magmaFuelCell.name = "magmaFuelCell"
+magmaFuelCell.name = "magma-fuel-cell"
 magmaFuelCell.type = "item"
 magmaFuelCell.fuel_value = "100GW"
 magmaFuelCell.burnt_result = "used-up-magma-fuel-cell"
@@ -18,7 +18,7 @@ data:extend{magmaFuelCell}
 
 -- Create the used up magma fuel cell
 local usedMagmaFuelCell = util.table.deepcopy(data.raw["item"]["used-up-uranium-fuel-cell"])
-usedMagmaFuelCell.name = "usedMagmaFuelCell"
+usedMagmaFuelCell.name = "used-up-magma-fuel-cell"
 usedMagmaFuelCell.type = "item"
 usedMagmaFuelCell.icons = {
   {

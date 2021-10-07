@@ -4,10 +4,10 @@ data:extend(
         {
             type = "recipe",
             enabled = true,
-            name = "magmaFuelCell",
+            name = "magma-fuel-cell",
             ingredients = {{"iron-plate", 1}},
             result_count = 4,
-            result = "magmaFuelCell"
+            result = "magma-fuel-cell"
         }
     }
 )
