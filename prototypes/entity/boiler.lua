@@ -19,7 +19,7 @@ marineBoiler.energy_source =
   type = "burner",
   fuel_category = "chemical",
   effectivity = 0.3,
-  fuel_inventory_size = 2,
+  fuel_inventory_size = 1,
   emissions = 0.1 / 6.5,
   smoke =
   {
