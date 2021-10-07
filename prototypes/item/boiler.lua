@@ -35,5 +35,15 @@ data:extend({
         place_result = "Power Boiler",
         stack_size = 5
     },
+
+    {
+        type = "item",
+        name = "magmaExchanger",
+        icon = "__base__/graphics/icons/boiler.png",
+        icon_size = 64, icon_mipmaps = 4,
+        subgroup = "energy",
+        place_result = "magmaExchanger",
+        stack_size = 20
+    },
 }
 )

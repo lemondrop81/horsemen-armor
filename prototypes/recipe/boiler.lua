@@ -53,5 +53,18 @@ data:extend({
         result = "Power Boiler",
         requester_paste_multiplier = 15
     },
+
+    {
+        --The recipe to craft the magmaExchanger
+        type = "recipe",
+        name = "magmaExchanger",
+        enabled = true,
+        energy_required = 1,
+        ingredients = {
+            { "iron-plate", 1}, 
+        },
+        result = "magmaExchanger",
+        requester_paste_multiplier = 15
+    },
 }
 )

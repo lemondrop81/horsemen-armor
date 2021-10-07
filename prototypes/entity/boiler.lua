@@ -229,3 +229,45 @@ end
 recursive_tint(powerBoiler, {r=32,g=178,b=170})
 
 data:extend{powerBoiler}
+
+
+-- Create the entity for a heat exchanger 
+local magmaExchanger = util.table.deepcopy(data.raw["boiler"]["heat-exchanger"])
+magmaExchanger.name = "magmaExchanger"
+magmaExchanger.icons = {
+    {
+        icon = magmaExchanger.icon,
+        tint = {r=32,g=178,b=170}
+    },
+}
+
+magmaExchanger.minable = {hardness = 0.2, mining_time = 0.5, result = "magmaExchanger"}
+magmaExchanger.max_health = 2500
+magmaExchanger.effectivity = 1
+magmaExchanger.target_temperature = 900
+magmaExchanger.fast_replaceable_group = "boiler"
+magmaExchanger.energy_consumption = "200MW"
+magmaExchanger.energy_source.min_working_temperature = 700
+magmaExchanger.energy_source.specific_heat = "5MJ"
+magmaExchanger.energy_source.max_transfer = "10GW"
+
+
+local function is_sprite_def(array)
+  return array.width and array.height and (array.filename or array.stripes or array.filenames)
+end
+
+function recursive_tint(array, tint)
+for _, v in pairs(array) do
+  if type(v) == "table" then
+    if is_sprite_def(v) or v.icon then
+      v.tint = tint
+    end
+    v = recursive_tint(v, tint)
+  end
+end
+return array
+end
+
+recursive_tint(magmaExchanger, {r=32,g=178,b=170})
+
+data:extend{magmaExchanger}
