@@ -2,7 +2,7 @@
 local magmaFuelCell = util.table.deepcopy(data.raw["item"]["uranium-fuel-cell"])
 magmaFuelCell.name = "magma-fuel-cell"
 magmaFuelCell.type = "item"
-magmaFuelCell.fuel_value = "100GW"
+magmaFuelCell.fuel_value = "10GJ"
 magmaFuelCell.burnt_result = "used-up-magma-fuel-cell"
 magmaFuelCell.icons = {
   {
@@ -12,7 +12,7 @@ magmaFuelCell.icons = {
 }
 magmaFuelCell.fuel_category = "magma"
 
-magmaFuelCell.stack_size = 10
+magmaFuelCell.stack_size = 2
 
 data:extend{magmaFuelCell}
 
