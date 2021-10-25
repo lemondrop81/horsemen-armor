@@ -60,6 +60,7 @@ data:extend({
         name = "magmaExchanger",
         enabled = true,
         energy_required = 1,
+        category = "crafting-with-fluid",
         ingredients = {
             { "waterTube-boiler", 1}, 
             { "beryllium-plate", 1}, 

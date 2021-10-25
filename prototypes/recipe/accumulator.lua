@@ -5,6 +5,7 @@ data:extend({
         name = "quick accumulator",
         enabled = false,
         energy_required = 1,
+        category = "crafting-with-fluid",
         ingredients = {
             { "neo-steel-plate", 5}, 
             {type="fluid", name="black_liquor", amount=10}
@@ -18,6 +19,7 @@ data:extend({
         name = "large accumulator",
         enabled = false,
         energy_required = 1,
+        category = "crafting-with-fluid",
         ingredients = {
             { "neo-steel-plate", 5},  
             {type="fluid", name="black_liquor", amount=10}
@@ -31,6 +33,7 @@ data:extend({
         name = "hyper accumulator",
         enabled = false,
         energy_required = 1,
+        category = "crafting-with-fluid",
         ingredients = {
             { "neo-steel-gear", 10}, 
             { "mithril-plate", 10},

@@ -6,7 +6,9 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1},             
+            { "neo-steel-plate", 10},     
+            { "beryllium-gear", 10},  
+            { "processing-unit", 10},          
         },
         result = "magma_reactor",
         requester_paste_multiplier = 15
