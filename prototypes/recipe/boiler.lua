@@ -61,7 +61,9 @@ data:extend({
         enabled = true,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "waterTube-boiler", 1}, 
+            { "beryllium-plate", 1}, 
+            {type="fluid", name="magma", amount=10}
         },
         result = "magmaExchanger",
         requester_paste_multiplier = 15
