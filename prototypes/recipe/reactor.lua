@@ -8,7 +8,8 @@ data:extend({
         ingredients = {
             { "neo-steel-plate", 10},     
             { "beryllium-gear", 10},  
-            { "processing-unit", 10},          
+            { "processing-unit", 10},  
+            { "highway-concrete", 10},        
         },
         result = "magma_reactor",
         requester_paste_multiplier = 15
