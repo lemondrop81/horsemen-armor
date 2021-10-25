@@ -1,6 +1,6 @@
 data:extend({
     {
-        --The recipe to craft the ammo for Death
+        --The recipe to craft active defence
         type = "recipe",
         name = "super laser",
         enabled = true,
@@ -10,7 +10,9 @@ data:extend({
 
         -- The ingredients list. 
         ingredients = {
-            { "iron-plate", 1}, 
+            { "neo-steel-plate", 10}, 
+            { "beryllium-plate", 10}, 
+            { "black-death", 1}, 
         },
         result = "super laser",
         requester_paste_multiplier = 15
