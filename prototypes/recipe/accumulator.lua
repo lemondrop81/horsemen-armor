@@ -6,7 +6,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "neo-steel-plate", 5}, 
+            {type="fluid", name="black_liquor", amount=10}
         },
         result = "quick accumulator",
         requester_paste_multiplier = 15
@@ -18,7 +19,8 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "neo-steel-plate", 5},  
+            {type="fluid", name="black_liquor", amount=10}
         },
         result = "large accumulator",
         requester_paste_multiplier = 15
@@ -30,7 +32,9 @@ data:extend({
         enabled = false,
         energy_required = 1,
         ingredients = {
-            { "iron-plate", 1}, 
+            { "neo-steel-gear", 10}, 
+            { "mithril-plate", 10},
+            {type="fluid", name="magma", amount=10}
         },
         result = "hyper accumulator",
         requester_paste_multiplier = 15
