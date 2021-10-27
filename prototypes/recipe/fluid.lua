@@ -38,7 +38,7 @@ data:extend({
         energy_required = 1,
         ingredients =
         {
-            --{type="fluid", name="crude-oil", amount=10},
+            {type="fluid", name="crude-oil", amount=10},
             { "hell-fire", 10},
         },
         results=
